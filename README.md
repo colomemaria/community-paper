@@ -48,7 +48,7 @@ If this part is useful/neccessary, we need to check for this.
 
 ## How to run
 
-- Clone the repo ```git clone https://github.com/SoloveyMaria/community.git``` and then cd into the directory ```cd community/```
+- Clone the repo ```git clone https://github.com/colomemaria/community-paper.git``` and then cd into the directory ```cd community-paper/```
 
 - If you don't have conda installed yet, install [conda](https://conda.io/miniconda.html) by running the command below
 
@@ -56,7 +56,7 @@ If this part is useful/neccessary, we need to check for this.
     make install-conda
     ```
 
-- Create a conda environment named "community_tutorial" and install all necessary packages by using the following command:
+- Create a conda environment named "community_paper" and install all necessary packages by using the following command:
 
     ```
     make create-env
@@ -72,7 +72,7 @@ If this part is useful/neccessary, we need to check for this.
     or
     
 - Open:
-    - [`src/calculate_communication.ipynb` Notebook](http://localhost:8888/notebooks/src/1.preprocess_data.ipynb) to run the demo workflow.
+    - [`src/1.preprocess_data.ipynb` Notebook](http://localhost:8888/notebooks/src/1.preprocess_data.ipynb) to run the demo workflow.
     
 ### Getting raw data
 
