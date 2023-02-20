@@ -1,0 +1,33 @@
+name: community_paper
+channels:
+- conda-forge
+- bioconda
+- r
+- defaults
+- anaconda
+- numba
+dependencies:
+- lxml
+- notebook
+- nb_conda_kernels
+- r-essentials
+- r-irkernel
+- r-devtools
+- r-ggplot2
+- r-gridextra
+- r-dendsort
+- bioconductor-complexheatmap
+- r-igraph
+- r-circlize
+- r-r.utils
+- r-data.table
+- r-matrix
+- bioconductor-singlecellexperiment
+- bioconductor-scran
+- bioconductor-scater
+- numpy
+- pandas
+- anndata
+- scvi-tools
+- scanpy
+- numba
