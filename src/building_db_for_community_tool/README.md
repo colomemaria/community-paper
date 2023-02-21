@@ -1,4 +1,4 @@
-Building the Ligand-Receptor database for community tool
+A brief description of the workflow for building the Ligand-Receptor database for community tool
 ========
 We utilize two main interaction databases from Omnipath.
 1. Interactions from the `ligrec extra` dataset of OmniPath. [Ref](https://r.omnipathdb.org/reference/import_ligrecextra_interactions.html)
