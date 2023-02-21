@@ -48,9 +48,12 @@ These steps are done separetely for each dataset and merged together.
 
 **After identifying the ligand and receptor components in each complex and merging them with the single XXX PAIRS**, we want to annotate them with protein descriptions. To achieve this, we utilize `mygene` which is an R package that provides an easy-to-use interface to access the MyGene.info web service, which provides comprehensive annotation information for gene and protein data. We use the queryMany function to map gene symbols to protein descriptions from the human genome. We then map the protein descriptions to the dataset by matching them with their corresponding gene symbols in each components of each interaction.
 
-Once we have mapped the gene symbols to protein descriptions and incorporated this information into the dataset, we reorder the columns and rename them to
-ensure consistency across all the datasets. This results in a clean and organized dataset that includes not only information about the interactions but 
-also the names of the proteins involved. Additionally, we append all of the column information that originates from Omnipath to the ligand-receptor 
+Once we have mapped the gene symbols to protein descriptions and incorporated this information into the dataset, we reorder the columns and rename them to ensure consistency across all the datasets. This results in a clean and organized dataset that includes not only information about the interactions but  also the names of the proteins involved. Additionally, we append all of the column information that originates from Omnipath to the ligand-receptor 
 interaction data. This allows users to track and see detailed information such as the sources, references, number of curation efforts, 
 and number of resources for each interaction. By including this information, we hope to improve the transparency and reliability of the data, 
 as users can easily verify the sources and level of curation for each interaction.
+
+#### References
+1. Türei, D., Korcsmáros, T., & Saez-Rodriguez, J. (2016). OmniPath: guidelines and gateway for literature-curated signaling pathway resources. Nature methods, 13(12), 966–967. https://doi.org/10.1038/nmeth.4077
+2. Türei, D., Valdeolivas, A., Gul, L., Palacio-Escat, N., Klein, M., Ivanova, O., Ölbei, M., Gábor, A., Theis, F., Módos, D., Korcsmáros, T., & Saez-Rodriguez, J. (2021). Integrated intra- and intercellular signaling knowledge for multicellular omics analysis. Molecular systems biology, 17(3), e9923. https://doi.org/10.15252/msb.20209923
+3. Xin, J., Mark, A., Afrasiabi, C., Tsueng, G., Juchler, M., Gopal, N., Stupp, G. S., Putman, T. E., Ainscough, B. J., Griffith, O. L., Torkamani, A., Whetzel, P. L., Mungall, C. J., Mooney, S. D., Su, A. I., & Wu, C. (2016). High-performance web services for querying gene and variant annotation. Genome biology, 17(1), 91. https://doi.org/10.1186/s13059-016-0953-9
