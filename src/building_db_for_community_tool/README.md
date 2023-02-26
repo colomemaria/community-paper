@@ -34,9 +34,9 @@ extracellular matrix, secreted, and transmembrane.
 #### Detecting interaction pairs. 
 
 We are utilizing all of the post-translational datasets from OmniPath, which is the largest network of its kind, to detect interactions rather than 
-make predictions. The creators of the network have acknowledged that it may include a significant number of false positives. 
+make predictions. The creators of the network have acknowledged that it may include a significant number of false positives [RefLink](https://r.omnipathdb.org/reference/import_post_translational_interactions.html)(Türei et al., 2021). 
 However, we are combining it with an annotations database to identify interactions. The network consists of 98,165 edges, and 
-manual curation of interactions is performed once the entire database is built for the community. [RefLink](https://r.omnipathdb.org/reference/import_post_translational_interactions.html)(Türei et al., 2021)
+manual curation of interactions is performed once the entire database is built for the community. 
 
 Next, we filter this extensive network to only include the components of the previously decomposed and annotated complexes, 
 resulting in a network that comprises only ligand-receptor interactions from complex molecules.
