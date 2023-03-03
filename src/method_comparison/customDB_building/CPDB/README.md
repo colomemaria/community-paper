@@ -1,6 +1,6 @@
 # CellPhoneDB
 
-To make a fair comparison between different tools, it is necessary to convert all the databases to be compared into a uniform structure, as each tool utilizes a unique database with a distinct structure.
+To make a fair comparison between different tools, it is necessary to convert all the databases into a uniform structure, as each tool utilizes a unique database with a distinct structure.
 
 By standardizing the databases, we can create a uniform database for all the tools, allowing us to compare their algorithms objectively.
 
