@@ -1,0 +1,5 @@
+It is well recognized that communication tools and pipelines are limited by the data available in their respective databases. Consequently, it is important to acknowledge that these tools merely reflect the data they contain, and if the databases are biased, so too are the results. Therefore, comparing default databases and creating unified custom databases is crucial to ensuring fair and accurate comparisons between different tools.
+
+However, comparing databases can be challenging due to the diverse structures used by different tools. For instance, while CellPhoneDB utilizes SQLAlchemy with multiple tables, community uses a single table. To simplify the process, community tool authors have designed the tool in a user-friendly manner, enabling the creation of custom databases through spreadsheets or by exporting and modifying the default database as a csv/tsv file.
+
+Notwithstanding, the process of building a custom database requires an in-depth understanding of the underlying biology and the specific experimental context. As such, it is essential to ensure that the database is well-curated and validated before using it for analysis.
