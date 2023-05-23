@@ -1,2 +1,4 @@
 results/data_preprocessing/Lasry/preprocessed/*
 results/method_comparison/compare_algorithms/*
+data/*
+results/data_preprocessing/Lasry/*
