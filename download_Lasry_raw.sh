@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Create a directory to download
-mkdir downloaded_files
+mkdir GSE185381_RAW
 
 # Download page containing GSE185381 information
 wget https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE185381 -qO- | 
@@ -32,8 +32,9 @@ while read ID; do
 
     # Loop through the resulting file names and download them
     while read -r line; do 
-        wget https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5613nnn/$ID/suppl/$line -P downloaded_files/
+        wget https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5613nnn/$ID/suppl/$line -P data/data_preprocessing/Lasry/raw_data/GSE185381_RAW/
     done
 done < barcodes.txt
 
-gunzip -d downloaded_files/*.gz
+gunzip -d GSE185381_RAW/*.gz
+
