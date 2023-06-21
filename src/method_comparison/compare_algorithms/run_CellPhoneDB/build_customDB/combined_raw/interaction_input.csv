@@ -165,6 +165,8 @@ O00238,P55107,GDF10,BMPR1B,user_curated,OmniPath
 O00238,P62987,UBA52,BMPR1B,user_curated,OmniPath
 O00238,Q13145,BAMBI,BMPR1B,user_curated,OmniPath
 O00238,Q13705,ACVR2B,BMPR1B,user_curated,OmniPath
+O00238,Q13873,BMPR1B,BMPR2,user_curated,OmniPath
+O00238,Q16671,BMPR1B,AMHR2,user_curated,OmniPath
 O00238,Q6KF10,BMPR1B,GDF6,user_curated,OmniPath
 O00238,Q6NW40,RGMB,BMPR1B,user_curated,OmniPath
 O00238,Q7Z4P5,GDF7,BMPR1B,user_curated,OmniPath
@@ -1545,6 +1547,7 @@ P00533,P78536,EGFR,ADAM17,user_curated,OmniPath
 P00533,Q02297,NRG1,EGFR,user_curated,OmniPath
 P00533,Q08830,FGL1,EGFR,user_curated,OmniPath
 P00533,Q12805,EFEMP1,EGFR,user_curated,OmniPath
+P00533,Q15303,ERBB4,EGFR,user_curated,OmniPath
 P00533,Q6UW88,EGFR,EPGN,user_curated,OmniPath
 P00533,Q8WWG1,NRG4,EGFR,user_curated,OmniPath
 P00533,Q92913,FGF13,EGFR,user_curated,OmniPath
@@ -3169,6 +3172,7 @@ P08572,Q9NPY3,COL4A2,CD93,user_curated,OmniPath
 P08572,Q9UKX5,COL4A2,ITGA11,user_curated,OmniPath
 P08575,P09382,LGALS1,PTPRC,user_curated,OmniPath
 P08575,P20273,CD22,PTPRC,user_curated,OmniPath
+P08575,P22897,MRC1,PTPRC,user_curated,OmniPath
 P08575,P27487,PTPRC,DPP4,user_curated,OmniPath
 P08575,Q9BZZ2,SIGLEC1,PTPRC,user_curated,OmniPath
 P08581,P08648,MET,ITGA5,user_curated,OmniPath
@@ -3382,6 +3386,7 @@ P09603,Q99062,CSF1,CSF3R,user_curated,OmniPath
 P09603,Q9NYQ7,CSF1,CELSR3,user_curated,OmniPath
 P09619,P12318,FCGR2A,PDGFRB,user_curated,OmniPath
 P09619,P14410,SI,PDGFRB,user_curated,OmniPath
+P09619,P16234,PDGFRA,PDGFRB,user_curated,OmniPath
 P09619,P52798,EFNA4,PDGFRB,user_curated,OmniPath
 P09619,Q03135,CAV1,PDGFRB,user_curated,OmniPath
 P09619,Q08431,MFGE8,PDGFRB,user_curated,OmniPath
@@ -4080,6 +4085,7 @@ P14780,Q07954,MMP9,LRP1,user_curated,OmniPath
 P14780,Q08345,MMP9,DDR1,user_curated,OmniPath
 P14780,Q9NR96,MMP9,TLR9,user_curated,OmniPath
 P14784,P18510,IL1RN,IL2RB,user_curated,OmniPath
+P14784,P31785,IL2RB,IL2RG,user_curated,OmniPath
 P14784,P40933,IL15,IL2RB,user_curated,OmniPath
 P14784,P60568,IL2RB,IL2,user_curated,OmniPath
 P14784,Q13261,IL15RA,IL2RB,user_curated,OmniPath
@@ -4303,6 +4309,7 @@ P17931,P18627,LGALS3,LAG3,user_curated,OmniPath
 P17931,P43121,LGALS3,MCAM,user_curated,OmniPath
 P17931,Q15262,LGALS3,PTPRK,user_curated,OmniPath
 P17936,Q6UXB1,IGFBP3,IGFL3,user_curated,OmniPath
+P17948,P35968,FLT1,KDR,user_curated,OmniPath
 P17948,P49763,FLT1,PGF,user_curated,OmniPath
 P17948,P49765,FLT1,VEGFB,user_curated,OmniPath
 P17948,P49767,VEGFC,FLT1,user_curated,OmniPath
@@ -4700,6 +4707,7 @@ P22607,P29320,EPHA3,FGFR3,user_curated,OmniPath
 P22607,P31371,FGF9,FGFR3,user_curated,OmniPath
 P22607,P31431,FGFR3,SDC4,user_curated,OmniPath
 P22607,P54756,EPHA5,FGFR3,user_curated,OmniPath
+P22607,P54764,EPHA4,FGFR3,user_curated,OmniPath
 P22607,P55075,FGF8,FGFR3,user_curated,OmniPath
 P22607,P61328,FGF12,FGFR3,user_curated,OmniPath
 P22607,Q15375,EPHA7,FGFR3,user_curated,OmniPath
@@ -4761,6 +4769,7 @@ P23468,Q9H5Y7,PTPRD,SLITRK6,user_curated,OmniPath
 P23468,Q9NP60,PTPRD,IL1RAPL2,user_curated,OmniPath
 P23468,Q9NPH3,PTPRD,IL1RAP,user_curated,OmniPath
 P23468,Q9NT99,LRRC4B,PTPRD,user_curated,OmniPath
+P23468,Q9NZN1,IL1RAPL1,PTPRD,user_curated,OmniPath
 P23468,Q9P1W8,PTPRD,SIRPG,user_curated,OmniPath
 P23468,Q9P244,PTPRD,LRFN1,user_curated,OmniPath
 P23470,Q8IWV2,CNTN4,PTPRG,user_curated,OmniPath
@@ -4799,6 +4808,7 @@ P24071,Q96LC7,FCAR,SIGLEC10,user_curated,OmniPath
 P24071,Q9BQ51,FCAR,PDCD1LG2,user_curated,OmniPath
 P24394,P31785,IL4R,IL2RG,user_curated,OmniPath
 P24394,P35225,IL13,IL4R,user_curated,OmniPath
+P24394,P78552,IL13RA1,IL4R,user_curated,OmniPath
 P24394,Q14627,IL13RA2,IL4R,user_curated,OmniPath
 P24394,Q9HBE4,IL21,IL4R,user_curated,OmniPath
 P24394,Q9NYZ4,IL4R,SIGLEC8,user_curated,OmniPath
@@ -4926,6 +4936,7 @@ P26992,Q9UBD9,CLCF1,CNTFR,user_curated,OmniPath
 P27037,P27539,GDF1,ACVR2A,user_curated,OmniPath
 P27037,P34820,BMP8B,ACVR2A,user_curated,OmniPath
 P27037,P36896,ACVR2A,ACVR1B,user_curated,OmniPath
+P27037,P37023,ACVRL1,ACVR2A,user_curated,OmniPath
 P27037,P43026,ACVR2A,GDF5,user_curated,OmniPath
 P27037,P55103,ACVR2A,INHBC,user_curated,OmniPath
 P27037,P55107,GDF10,ACVR2A,user_curated,OmniPath
@@ -5065,6 +5076,7 @@ P30530,Q9UKJ1,AXL,PILRA,user_curated,OmniPath
 P30532,P55000,SLURP1,CHRNA5,user_curated,OmniPath
 P30533,P78324,LRPAP1,SIRPA,user_curated,OmniPath
 P30533,P98155,LRPAP1,VLDLR,user_curated,OmniPath
+P30533,P98164,LRP2,LRPAP1,user_curated,OmniPath
 P30533,Q07954,LRPAP1,LRP1,user_curated,OmniPath
 P30533,Q14114,LRPAP1,LRP8,user_curated,OmniPath
 P30533,Q86X29,LRPAP1,LSR,user_curated,OmniPath
@@ -5235,6 +5247,7 @@ P35625,P35968,TIMP3,KDR,user_curated,OmniPath
 P35625,P50052,TIMP3,AGTR2,user_curated,OmniPath
 P35625,P78536,TIMP3,ADAM17,user_curated,OmniPath
 P35625,Q08345,TIMP3,DDR1,user_curated,OmniPath
+P35916,P35968,FLT4,KDR,user_curated,OmniPath
 P35916,P49767,FLT4,VEGFC,user_curated,OmniPath
 P35916,Q02413,DSG1,FLT4,user_curated,OmniPath
 P35916,Q14953,FLT4,KIR2DS5,user_curated,OmniPath
@@ -5260,6 +5273,7 @@ P36894,P43026,BMPR1A,GDF5,user_curated,OmniPath
 P36894,P55107,GDF10,BMPR1A,user_curated,OmniPath
 P36894,Q13145,BAMBI,BMPR1A,user_curated,OmniPath
 P36894,Q13705,ACVR2B,BMPR1A,user_curated,OmniPath
+P36894,Q13873,BMPR1A,BMPR2,user_curated,OmniPath
 P36894,Q6KF10,BMPR1A,GDF6,user_curated,OmniPath
 P36894,Q7Z4P5,GDF7,BMPR1A,user_curated,OmniPath
 P36894,Q7Z5Y6,BMP8A,BMPR1A,user_curated,OmniPath
@@ -5400,6 +5414,7 @@ P42127,Q01718,ASIP,MC2R,user_curated,OmniPath
 P42127,Q01726,ASIP,MC1R,user_curated,OmniPath
 P42127,Q9Y624,ASIP,F11R,user_curated,OmniPath
 P42336,P48551,PIK3CA,IFNAR2,user_curated,OmniPath
+P42701,Q5VWK5,IL12RB1,IL23R,user_curated,OmniPath
 P42701,Q9NPF7,IL23A,IL12RB1,user_curated,OmniPath
 P42702,P48029,SLC6A8,LIFR,user_curated,OmniPath
 P42702,Q16619,CTF1,LIFR,user_curated,OmniPath
@@ -6009,6 +6024,7 @@ Q02846,Q9UMX6,GUCA1B,GUCY2D,user_curated,OmniPath
 Q03135,Q10588,BST1,CAV1,user_curated,OmniPath
 Q03403,Q6W4X9,TFF2,MUC6,user_curated,OmniPath
 Q03405,Q9HBL7,PLGRKT,PLAUR,user_curated,OmniPath
+Q03405,Q9NZR2,LRP1B,PLAUR,user_curated,OmniPath
 Q03431,Q7Z4H4,ADM2,PTH1R,user_curated,OmniPath
 Q03431,Q8WXF3,RLN3,PTH1R,user_curated,OmniPath
 Q03431,Q96A98,PTH2,PTH1R,user_curated,OmniPath
@@ -6112,6 +6128,7 @@ Q13308,Q15063,POSTN,PTK7,user_curated,OmniPath
 Q13324,Q969E3,UCN3,CRHR2,user_curated,OmniPath
 Q13324,Q96RP3,UCN2,CRHR2,user_curated,OmniPath
 Q13326,Q9P2B2,PTGFRN,SGCG,user_curated,OmniPath
+Q13332,Q16288,NTRK3,PTPRS,user_curated,OmniPath
 Q13332,Q6PJG9,PTPRS,LRFN4,user_curated,OmniPath
 Q13332,Q8IW52,PTPRS,SLITRK4,user_curated,OmniPath
 Q13332,Q96NI6,PTPRS,LRFN5,user_curated,OmniPath
@@ -6121,6 +6138,7 @@ Q13332,Q9H5Y7,SLITRK6,PTPRS,user_curated,OmniPath
 Q13332,Q9NP60,PTPRS,IL1RAPL2,user_curated,OmniPath
 Q13332,Q9NPH3,PTPRS,IL1RAP,user_curated,OmniPath
 Q13332,Q9NT99,LRRC4B,PTPRS,user_curated,OmniPath
+Q13332,Q9NZN1,IL1RAPL1,PTPRS,user_curated,OmniPath
 Q13332,Q9P244,PTPRS,LRFN1,user_curated,OmniPath
 Q13410,Q7Z3B1,BTN1A1,NEGR1,user_curated,OmniPath
 Q13410,Q86YT9,BTN1A1,JAML,user_curated,OmniPath
