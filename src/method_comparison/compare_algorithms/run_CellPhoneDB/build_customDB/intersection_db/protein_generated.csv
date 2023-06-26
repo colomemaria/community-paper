@@ -9022,7 +9022,6 @@ Q96D46,NMD3_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,n
 Q9BVI4,NOC4L_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q86U38,NOP9_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P49790,NU153_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
-Q9H237,PORCN_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q9H8P0,PORED_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 H3BUK9,POTB2_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 A0JP26,POTB3_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
@@ -9473,7 +9472,6 @@ Q96KN3,PKNX2_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,
 Q9HAU0,PKHA5_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P42338,PK3CB_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q99541,PLIN2_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
-O00329,PK3CD_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q4KWH8,PLCH1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q8IV08,PLD3_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q9NRY6,PLS3_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
@@ -15154,7 +15152,6 @@ O15255,CXX1_HUMAN,True,False,False,nan,False,False,nan,False,False,nan,To_remove
 O15294,OGT1_HUMAN,False,True,False,nan,False,False,nan,False,False,nan,To_comment,Peripheral_add,nan,nan
 O15296,LX15B_HUMAN,False,True,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 O15303,GRM6_HUMAN,True,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
-O15374,MOT5_HUMAN,True,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 O15375,MOT6_HUMAN,True,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 O15393,TMPS2_HUMAN,True,False,True,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 O15403,MOT7_HUMAN,True,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
@@ -15347,7 +15344,6 @@ O95721,SNP29_HUMAN,False,True,False,nan,False,False,nan,False,False,nan,To_add,n
 O95741,CPNE6_HUMAN,True,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 O95782,AP2A1_HUMAN,False,True,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 O95786,DDX58_HUMAN,True,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
-O95867,LY66C_HUMAN,True,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 O95868,LY66D_HUMAN,True,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 O95876,FRITZ_HUMAN,True,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 O95886,DLGP3_HUMAN,False,True,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
@@ -15606,6 +15602,7 @@ P12259,FA5_HUMAN,False,False,True,nan,False,False,nan,False,False,nan,To_add,nan
 P12724,ECP_HUMAN,False,False,True,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P12814,ACTN1_HUMAN,True,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P12838,DEF4_HUMAN,False,False,True,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
+P12931,SRC_HUMAN,True,False,False,nan,False,False,nan,False,True,Non-receptor protein tyrosine kinase,To_add,nan,Non-receptor protein tyrosine kinase,nan
 P13284,GILT_HUMAN,False,False,True,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P13498,CY24A_HUMAN,True,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P13521,SCG2_HUMAN,False,False,True,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
@@ -17604,7 +17601,6 @@ Q96RF0,SNX18_HUMAN,False,True,False,nan,False,False,nan,False,False,nan,To_add,n
 Q96RI8,TAAR6_HUMAN,True,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q96RI9,TAAR9_HUMAN,True,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q96RJ0,TAAR1_HUMAN,True,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
-Q96RJ3,TR13C_HUMAN,True,False,False,nan,False,True,TNF_receptor_add,False,False,nan,To_add,nan,TNF_receptor_add (uniprot),PF09256;
 Q96RK4,BBS4_HUMAN,True,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q96RL6,SIG11_HUMAN,True,False,False,nan,False,False,nan,False,True,Sialic acid-binding Ig-like,To_add,nan,Iglike,nan
 Q96RT1,ERBIN_HUMAN,True,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
@@ -17921,6 +17917,7 @@ Q9NQ40,S52A3_HUMAN,True,False,False,nan,False,False,nan,False,False,nan,To_add,n
 Q9NQ79,CRAC1_HUMAN,False,False,True,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q9NQ84,GPC5C_HUMAN,True,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q9NQ90,ANO2_HUMAN,True,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
+Q9NQA5,TRPV5_HUMAN,True,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q9NQC7,CYLD_HUMAN,False,True,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q9NQN1,OR2S1_HUMAN,True,False,False,nan,False,False,nan,False,True,Olfactory receptor,To_add,nan,Olfactory receptor,nan
 Q9NQX3,GEPH_HUMAN,False,True,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
@@ -18672,10 +18669,11 @@ Q02246,CNTN2_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,n
 Q12860,CNTN1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q9UHC6,CNTNAP2_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q96MU8,KREMEN1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
+Q9P232,CNTN3_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
+P23470,PTPRG_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q8IWV2,CNTN4_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P51693,APLP1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 P05067,APP_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
-P23470,PTPRG_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q9UQ52,CNTN6_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q03692,COL10A1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q6GTX8,LAIR1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
@@ -18923,7 +18921,7 @@ P55075,FGF8_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,n
 P31371,FGF9_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q08830,FGL1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P18627,LAG3_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
-O43155,FLRT2_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
+O43155,FLRT2_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q6ZN44,UNC5A_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q8IZJ1,UNC5B_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q6UXZ4,UNC5D_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
@@ -18986,6 +18984,7 @@ O43555,GNRH2_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,
 Q96T91,GPHA2_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q8WXG9,ADGRV1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q86YW7,GPHB5_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
+P06744,GPI_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q6UWK7,GPR15L_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P49685,GPR15_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 O60565,GREM1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
@@ -19219,7 +19218,7 @@ P0CG37,CFC1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,na
 P0CG36,CFC1B_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 P55103,INHBC_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 P58166,INHBE_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
-P01308,INS_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
+P01308,INS_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P51460,INSL3_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q9HBX9,RXFP1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q8WXD0,RXFP2_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
@@ -19297,6 +19296,7 @@ Q9HBW0,LPAR2_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,n
 Q9UBY5,LPAR3_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q99677,LPAR4_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 P06858,LPL_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
+Q96JA1,LRIG1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 O94898,LRIG2_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P01374,LTA_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P36941,LTBR_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
@@ -19462,7 +19462,7 @@ P12273,PIP_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,na
 P55064,AQP5_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q9Y639,NPTN_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 P14555,PLA2G2A_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
-P00747,PLG_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
+P00747,PLG_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P17948,FLT1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q9HBL7,PLGRKT_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 P20382,PMCH_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
@@ -19685,6 +19685,9 @@ Q93038,TNFRSF25_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_ad
 P28908,TNFRSF8_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 O75888,TNFSF13_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 O14836,TNFRSF13B_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
+Q9Y275,TNFSF13B_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
+P02786,TFRC_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
+Q96RJ3,TNFRSF13C_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 O43557,TNFSF14_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 O95407,TNFRSF6B_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 O95150,TNFSF15_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
@@ -19895,7 +19898,6 @@ P20292,ALOX5AP_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_ad
 P09917,ALOX5_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 P15144,ANPEP_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P25054,APC_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
-Q9P232,CNTN3_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 P55157,MTTP_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q92673,SORL1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q7Z4F1,LRP10_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
@@ -19930,8 +19932,6 @@ P0DPA2,VSIG8_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,n
 P78410,BTN3A2_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 O00478,BTN3A3_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q6UX41,BTNL8_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
-Q6UXG8,BTNL9_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
-Q96NI6,LRFN5_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q9NSG2,C1orf112_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q9NRQ2,PLSCR4_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q5T5A4,C1orf194_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
@@ -19993,7 +19993,6 @@ P16422,EPCAM_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,n
 Q6UW60,PCSK4_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q9UHX3,ADGRE2_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 P30203,CD6_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
-Q99075,HBEGF_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q9NYZ4,SIGLEC8_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q12918,KLRB1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 P40259,CD79B_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
@@ -20069,7 +20068,6 @@ Q9Y6C2,EMILIN1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_ad
 P22413,ENPP1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P49961,ENTPD1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P0DMS9,TMIGD3_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
-Q9NZQ7,CD274_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q8IUI8,CRLF3_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 P03372,ESR1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q8N2X6,EXOC3-AS1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
@@ -20091,8 +20089,8 @@ Q496F6,CD300E_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,
 Q8N149,LILRA2_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q96DD7,SHISA4_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 O00602,FCN1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
-P02671,FGA_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
-P02675,FGB_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
+P02671,FGA_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
+P02675,FGB_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q14524,SCN5A_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q9UQD0,SCN8A_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q9UEF7,KL_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
@@ -20102,7 +20100,7 @@ Q9UBH6,XPR1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,na
 Q9Y625,GPC6_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q6ZMC9,SIGLEC15_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q9BX97,PLVAP_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
-P02679,FGG_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
+P02679,FGG_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 P41180,CASR_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 P35462,DRD3_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 O00222,GRM8_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
@@ -20139,7 +20137,6 @@ P16520,GNB3_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,n
 O75899,GABBR2_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q6UX15,LAYN_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 O75487,GPC4_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
-P06744,GPI_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q9UKV5,AMFR_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q8NDV2,GPR26_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q7L5A8,FA2H_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
@@ -20190,10 +20187,10 @@ Q99712,KCNJ15_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,
 P48050,KCNJ4_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q969P0,IGSF8_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q8NFM7,IL17RD_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
-Q9Y275,TNFSF13B_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 P60568,IL2_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q9UBH0,IL36RN_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q9Y5F9,PCDHGB6_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
+Q6UXG8,BTNL9_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q8N967,LRTM2_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q8N0Z9,VSIG10_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 O14654,IRS4_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
@@ -20204,7 +20201,6 @@ P16389,KCNA2_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,
 Q14722,KCNAB1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q8TBQ9,TMEM167A_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q86YW5,TREML1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
-Q9UM44,HHLA2_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q9Y5R2,MMP24_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 P07288,KLK3_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q6UY11,DLK2_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
@@ -20232,10 +20228,8 @@ Q8N131,TMEM123_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add
 Q8IYS5,OSCAR_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q13449,LSAMP_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q14982,OPCML_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
-Q14766,LTBP1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
-P02788,LTF_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
+P02788,LTF_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q86VZ4,LRP11_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
-P02786,TFRC_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 P07948,LYN_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 O95274,LYPD3_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 O95994,AGR2_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
@@ -20245,19 +20239,17 @@ Q96QZ7,MAGI1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,
 Q96AP7,ESAM_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 P28482,MAPK1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P16112,ACAN_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
-P11226,MBL2_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
+P11226,MBL2_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q96KG7,MEGF10_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
-P08582,MELTF_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q9NQ76,MEPE_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q8N307,MUC20_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
-P03956,MMP1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
+P03956,MMP1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 P39900,MMP12_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P45452,MMP13_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P51512,MMP16_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P08253,MMP2_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P09237,MMP7_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P14780,MMP9_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
-Q96JA1,LRIG1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q86VH5,LRRTM3_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q8IW00,VSTM4_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 O75970,MPDZ_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
@@ -20290,6 +20282,9 @@ Q13442,PDAP1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,
 P52961,ART1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 P11168,SLC2A2_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 P42336,PIK3CA_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
+O00329,PIK3CD_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
+O95867,LY6G6C_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
+O15374,SLC16A4_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 P27986,PIK3R1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P22681,CBL_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q9Y6I3,EPN1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
@@ -20299,7 +20294,6 @@ Q13018,PLA2R1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,
 P00750,PLAT_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P55058,PLTP_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 O43157,PLXNB1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
-Q9NPR2,SEMA4B_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q8TCY5,MRAP_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q00005,PPP2R2B_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q8N766,EMC1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
@@ -20344,7 +20338,6 @@ P01008,SERPINC1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_a
 P07093,SERPINE2_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q8IUK5,PLXDC1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q9UHV2,SERTAD1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
-Q8N474,SFRP1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q6FHJ7,SFRP4_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q5T4F7,SFRP5_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q8IWL1,SFTPA2_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
@@ -20354,7 +20347,6 @@ Q9Y561,LRP12_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,n
 Q9ULH4,LRFN2_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q9Y5G6,PCDHGA7_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q96DU3,SLAMF6_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
-Q01650,SLC7A5_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q9NZU0,FLRT3_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 O94991,SLITRK5_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 O15162,PLSCR1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
@@ -20364,7 +20356,6 @@ Q9GZP0,PDGFD_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,n
 O43278,SPINT1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q13813,SPTAN1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 O15020,SPTBN2_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
-P12931,SRC_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P10124,SRGN_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P15907,ST6GAL1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q9UNE7,STUB1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
@@ -20404,7 +20395,6 @@ P34969,HTR7_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,na
 Q9NRR2,TPSG1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q8IZF2,ADGRF5_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q6UXN2,TREML4_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
-Q9NQA5,TRPV5_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 O60635,TSPAN1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 O60637,TSPAN3_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 O43914,TYROBP_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
@@ -20415,7 +20405,10 @@ Q92752,TNR_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan
 P08670,VIM_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 Q96N03,VSTM2L_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
 P54577,YARS1_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
+Q9NZQ7,CD274_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q96PD2,DCBLD2_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
+Q9NPR2,SEMA4B_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
+Q99075,HBEGF_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 D3W0D1,KLRF2_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q6UVW9,CLEC2A_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q8TD07,RAET1E_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
@@ -20432,6 +20425,7 @@ Q02094,RHAG_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,na
 Q14773,ICAM4_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q9UKY0,PRND_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q9NZ53,PODXL2_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
+Q9UM44,HHLA2_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 Q14393,GAS6_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 P36888,FLT3_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 P49771,FLT3LG_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
@@ -20440,3 +20434,9 @@ Q969J5,IL22RA2_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add
 Q15389,ANGPT1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 O14763,TNFRSF10B_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
 P48023,FASLG_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
+Q96NI6,LRFN5_HUMAN,False,False,False,nan,False,False,nan,False,False,nan,To_add,nan,nan,nan
+Q14766,LTBP1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
+P08582,MELTF_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
+Q9H237,PORCN_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
+Q8N474,SFRP1_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
+Q01650,SLC7A5_HUMAN,False,False,False,nan,False,True,nan,False,False,nan,To_add,nan,nan,nan
