@@ -1,4 +1,4 @@
-#conda activate cpdbnnet
+#conda activate cpdb2
 # Set the directory path to the directory containing the DEG samples
 samples_dir=../../../../../results/method_comparison/compare_algorithms/CPDB/samples_DEGs/
 
@@ -15,6 +15,6 @@ do
   mkdir ${samples_dir}${sample}_results;
 
   # Run CellPhoneDB's DEG analysis method on the sample using the custom database, with input files in the sample directory and output files in the sample results subdirectory
-  cellphonedb method degs_analysis ${samples_dir}${sample}_meta.tsv ${samples_dir}${sample}_counts.tsv ${samples_dir}${sample}_DEGs.tsv --database $custom_db --counts-data hgnc_symbol --output-path ${samples_dir}${sample}_results/;
+  cellphonedb method degs_analysis --threshold 0.1 ${samples_dir}${sample}_meta.tsv ${samples_dir}${sample}_counts.tsv ${samples_dir}${sample}_DEGs.tsv --database $custom_db --counts-data hgnc_symbol --output-path ${samples_dir}${sample}_results/;
 done;
 
