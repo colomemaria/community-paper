@@ -2,4 +2,8 @@ results/data_preprocessing/Lasry/preprocessed/*
 data/*
 results/data_preprocessing/Lasry/*
 results/method_comparison/compare_algorithms/CPDB/samples_DEGs/*
-results/data_preprocessing/vanGalen_Hourigan/*
+results/data_preprocessing/vanGalen_Hourigan/batch_corrected/*
+results/data_preprocessing/vanGalen_Hourigan/filtered/*
+results/data_preprocessing/vanGalen_Hourigan/normalized/*
+results/data_preprocessing/vanGalen_Hourigan/preprocessed/*
+results/data_preprocessing/vanGalen_Hourigan/visualization/*
