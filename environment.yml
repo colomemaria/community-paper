@@ -1,4 +1,4 @@
-name: community_paper2
+name: community_paper
 channels:
 - conda-forge
 - bioconda
