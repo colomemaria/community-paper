@@ -1,6 +1,5 @@
 # Lasry Preprocessing - ScRNAseq Analysis of Bone Marrow from Healthy and AML Individuals
-<div align='justify'>
-This repository contains the preprocessing pipeline and analysis steps for the single-cell RNA sequencing (scRNAseq) data obtained from bone marrow samples of healthy and AML (acute myeloid leukemia) individuals. The raw data used in this study was sourced from publicly available datasets ([doi](https://doi.org/10.1038/s43018-022-00480-0)) and the normalized read counts, along with annotation files, were downloaded from [GSE185381](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE185381).
+This repository contains the preprocessing pipeline and analysis steps for the single-cell RNA sequencing (scRNAseq) data obtained from bone marrow samples of healthy and AML (acute myeloid leukemia) individuals. The raw data used in this study was sourced from publicly available datasets [Lasry, et al. 2022](https://www.nature.com/articles/s43018-022-00480-0) along with annotation files, were downloaded from [GSE185381](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE185381).
 
 ## Data Preprocessing Steps
 
@@ -36,5 +35,5 @@ This repository contains the preprocessing pipeline and analysis steps for the s
    - To maintain a balanced cell type representation across all samples, a sample with less than 7 cell types was removed.
    - Ultimately, 13 samples and 46,702 total cells were included in the final dataset.
 
-Please note that this repository is intended to document and share the preprocessing pipeline and data filtering steps undertaken in our study. It serves as a valuable resource for reproducibility and transparency in scRNAseq analyses. </div>
+Please note that this repository is intended to document and share the preprocessing pipeline and data filtering steps undertaken in our study. It serves as a valuable resource for reproducibility and transparency in scRNAseq analyses.
 
