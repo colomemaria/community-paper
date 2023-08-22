@@ -4,25 +4,30 @@ This repository contains a Python module and Jupyter Notebooks with R workflows 
 
 ## Aim / Overveiw
 
-The objective of this repository is to reproduce the analysis of the expression of one participant in cell-cell communication in AML and identify potential differences in cell-cell communication in the diseased state. By doing so, this tool will provide insights into the mechanisms of cell-cell communication and its potential role in the development of AML.
+The objective of this repository is to reproduce the analysis of the expression in cell-cell communication in disease state and identify potential differences in cell-cell communication in the diseased state. By doing so, the `community` tool will provide insights into the mechanisms of cell-cell communication and its potential role in the development of AML.
 
 
 ## Workflow
+We applied `community` tool on three published datasets.
+    
+1. Lasry, the dataset associated with this research has undergone peer review and has been published in the journal Nature Cancer. The publication can be accessed via the following link: https://doi.org/10.1038/s43018-022-00480-0. The raw dataset can be downloaded by running `download_Lasry_raw.sh`. 
+2. Similie, a published scRNA dataset of 48 biopsies taken from the colon of 12 healthy and 18 ulcerative colitis(UC) individuals. This publication can be access via the following link: https://doi.org/10.1016/j.cell.2019.06.029. 
+3. VanGalen_Hourigan, to study the alterations in cell type to cell type communication in AML, we created an integrated dataset containing the scRNAseq of the bone marrow of healthy individuals (GSE116256 vanGalenREF, GSE120221 OetjenREF) and AML patients at diagnosis(REF)
 
-The raw data for this analysis is sourced from XXX, which is stored under the XXX_Zenodo_link. The first step in the analysis is performed using the R module in the Jupyter Notebook /src/1.preprocess_data.ipynb, which is responsible for cleaning and processing the raw data, as well as annotating the data using relevant files.
+**_NOTE:_** If you want to replicate the results and skip the preprocessing step of each dataset, you can download the pre-processed datasets from the following Zenodo links. Alternatively, you can run the following command to download the datasets into their corresponding directories and proceed to run the notebooks.
 
-The processed data from the first step is then filtered using the Jupyter Notebook `/src/2.filtering.ipynb`. This R module filters out cells with low library size and low gene count, and the resulting processed data can be found in the /data/processed/ directory in .RData format. The figures generated from this step are stored in the `/results/filtered/figures/` directory.
+The initial step of the analysis is conducted using the R module in the Jupyter Notebook `/src/data_preprocessing/$dataset/1.preprocess_data.ipynb`. This module handles tasks such as cleaning and processing the raw data, as well as annotating the data using relevant files.
 
-The next step, performed using the Jupyter Notebook `/src/3.normalization.ipynb`, utilizes the Scran package in R to normalize the data. The input for this step is the filtered data from the previous step, which can be found in the `/data/filtered/` directory. The figures generated from this step are stored in the `/results/normalized/figures/` directory.
+Subsequently, the processed data from the first step is filtered through the Jupyter Notebook `/src/data_preprocessing/$dataset/2.filtering.ipynb`. This R module filters out cells with low library size and low gene count. The resulting processed data is stored in the `.RData` format within the `/results/data_preprocessing/$dataset/` directory.
 
-The Jupyter Notebook `src/4.1.batch_correction.ipynb` uses the scgen library in Python for batch correction. The input for this step is the normalized data from the previous step.
+Moving forward, the next stage, accomplished using the Jupyter Notebook `/src/data_preprocessing/$dataset/3.normalization.ipynb`, employs the Scran package in R for data normalization. The input for this stage is the filtered data obtained in the previous step, available in the `/results/data_preprocessing/$dataset/filtered/` directory.
 
-**Warning**
-This notebook may take several hours to run, depending on the specifications of your computing system. It took almost 14 hours to run on 128GB RAM with 30 CPUs. 
+The Jupyter Notebook `/src/data_preprocessing/$dataset/4.1.batch_correction.ipynb` utilizes the Python-based scgen library for batch correction. The input for this step is the normalized data from the previous stage.
 
-`/src/4.2.visualization.ipynb` finally, last part of the workflow that is used to visualize the data before and after the batch correction. All the figures in here are save under `/results/visualization/figures/`
+**Warning:** Please be aware that running this notebook might take a substantial amount of time, depending on your computing system's specifications. It took nearly 14 hours to complete on a system with 128GB RAM and 30 CPUs. However, you can expedite the process by running it on a GPU node.
 
-Finally, the Jupyter Notebook `/src/4.2.visualization.ipynb` is used to visualize the data before and after batch correction. All figures generated in this step are saved in the `/results/visualization/figures/` directory.
+Lastly, the Jupyter Notebook `4.2.visualization.ipynb` is employed to visualize the processed data.
+
 
 ## Raw data info
 
