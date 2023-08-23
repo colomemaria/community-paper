@@ -7,9 +7,7 @@ This section provides an overview of the directory structure for our GitHub repo
 
 The `data_processing` section focuses on processing the published raw data from Lasry and Similie. The data processing pipeline involves several steps such as:
 
-- **Combine Submatrices:** In this step, submatrices are combined to create a count matrix, which serves as the basis for further analysis.
-
-- **Annotation File Processing:** Annotation files are processed to extract relevant information and prepare them for downstream analysis.
+- **Initial Cleaning:**  Cleaning and processing the raw data
 
 - **Filtering:** This step involves filtering out cell types that have too few cells, as well as identifying individual genes that may be specific to certain cell types under certain health conditions.
 
