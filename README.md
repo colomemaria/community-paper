@@ -14,7 +14,9 @@ We applied `community` tool on three published datasets.
 2. Similie, a published scRNA dataset of 48 biopsies taken from the colon of 12 healthy and 18 ulcerative colitis(UC) individuals. This publication can be access via the following link: https://doi.org/10.1016/j.cell.2019.06.029. 
 3. VanGalen_Hourigan, to study the alterations in cell type to cell type communication in AML, we created an integrated dataset containing the scRNAseq of the bone marrow of healthy individuals (GSE116256 vanGalenREF, GSE120221 OetjenREF) and AML patients at diagnosis(REF)
 
-**_NOTE:_** If you want to replicate the results and skip the preprocessing step of each dataset, you can download the pre-processed datasets from the following Zenodo links. Alternatively, you can run the following command to download the datasets into their corresponding directories and proceed to run the notebooks.
+**_NOTE:_** If you want to replicate the results and skip the preprocessing step of each dataset, you can download the pre-processed datasets from the following Zenodo links. Alternatively, you can run the following command to download the raw datasets into their corresponding directories and proceed to run the notebooks.
+
+`./download_raw_data.sh --lasry` or `./download_raw_data.sh --hourigan`
 
 ## Directory Structure
 
