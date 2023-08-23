@@ -37,6 +37,11 @@ create-env: ## create conda environment
 	fi
 .PHONY: create-env
 
+download-data: ## download preprocessed data
+	./download_raw_data.sh --lasry && ./download_raw_data.sh --hourigan
+.PHONY: download-data
+
+
 run-jupyter: ## run jupyter notebooks
 	 source ${ACTIVATE} ${CONDA_ENV} && \
 		jupyter notebook
