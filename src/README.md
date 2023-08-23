@@ -1,4 +1,3 @@
-shit man how to start
 ## Directory Structure
 
 This section provides an overview of the directory structure for our GitHub repository, which is organized into two main sections: `data_processing` and `method_comparison`.
