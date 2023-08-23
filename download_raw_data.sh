@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# usage ./download_raw_data.sh --lasry or ./download_raw_data.sh --hourigan
+
+
 # Define a function to download and process data for a specific dataset
 download_raw_data() {
     dataset="$1"
