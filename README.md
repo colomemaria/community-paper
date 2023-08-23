@@ -10,13 +10,12 @@ The objective of this repository is to reproduce the analysis of the expression 
 ## Workflow
 We applied `community` tool on three published datasets.
     
-1. Lasry, the dataset associated with this research has undergone peer review and has been published in the journal Nature Cancer. The publication can be accessed via the following link: https://doi.org/10.1038/s43018-022-00480-0. The raw dataset can be downloaded by running `download_Lasry_raw.sh`. 
+1. Lasry, the dataset associated with this research has undergone peer review and has been published in the journal Nature Cancer. The publication can be accessed via the following link: https://doi.org/10.1038/s43018-022-00480-0. The raw dataset can be downloaded by running `./download_raw_data.sh --lasry`. 
 2. Similie, a published scRNA dataset of 48 biopsies taken from the colon of 12 healthy and 18 ulcerative colitis(UC) individuals. This publication can be access via the following link: https://doi.org/10.1016/j.cell.2019.06.029. 
-3. VanGalen_Hourigan, to study the alterations in cell type to cell type communication in AML, we created an integrated dataset containing the scRNAseq of the bone marrow of healthy individuals (GSE116256 vanGalenREF, GSE120221 OetjenREF) and AML patients at diagnosis(REF)
+3. VanGalen_Hourigan, to study the alterations in cell type to cell type communication in AML, we created an integrated dataset containing the scRNAseq of the bone marrow of healthy individuals (GSE116256 vanGalenREF, GSE120221 OetjenREF) and AML patients at diagnosis(REF). The raw dataset can be downloaded by running `./download_raw_data.sh --hourigan`. 
 
-**_NOTE:_** If you want to replicate the results and skip the preprocessing step of each dataset, you can download the pre-processed datasets from the following Zenodo links. Alternatively, you can run the following command to download the raw datasets into their corresponding directories and proceed to run the notebooks.
+**_NOTE:_** If you want to replicate the results and skip the preprocessing step of each dataset, you can download the pre-processed datasets from the following Zenodo links. 
 
-`./download_raw_data.sh --lasry` or `./download_raw_data.sh --hourigan`
 
 ## Directory Structure
 
