@@ -7,7 +7,7 @@ This repository contains a Python module and Jupyter Notebooks with R workflows 
 The objective of this repository is to reproduce the analysis of the expression in cell-cell communication in disease state and identify potential differences in cell-cell communication in the diseased state. By doing so, the `community` tool will provide insights into the mechanisms of cell-cell communication and its potential role in the development of AML.
 
 
-## Workflow
+## Raw data info
 We applied `community` tool on three published datasets.
     
 1. Lasry, the dataset associated with this research has undergone peer review and has been published in the journal Nature Cancer. The publication can be accessed via the following link: https://doi.org/10.1038/s43018-022-00480-0. The raw dataset can be downloaded by running `./download_raw_data.sh --lasry`. 
@@ -19,13 +19,9 @@ We applied `community` tool on three published datasets.
 
 ## Directory Structure
 
-Here is the tree view of the `src` directory. The output from each section will be saved in the corresponding folder under the `result/` directory:
+The repository is organized into two main directories: `/src` and `/results`. Below is the tree view of the `src` directory which contains Jupyter Notebooks. The output from each section will be saved in the corresponding folder under the `result/` directory.
 
 ![tree](https://imageupload.io/ib/JTjnBXgh9xdNnUa_1692782470.png)
-
-## Raw data info
-
-Should we put some info about the raw data? 
 
 
 ## Supplementary tables
