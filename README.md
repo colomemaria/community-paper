@@ -16,8 +16,11 @@ We applied `community` tool on three published datasets.
 
 **_NOTE:_** If you want to replicate the results and skip the preprocessing step of each dataset, you can download the pre-processed datasets from the following Zenodo links. Alternatively, you can run the following command to download the datasets into their corresponding directories and proceed to run the notebooks.
 
-# INSERT TREE VIEW OF THE DIR
+## Directory Structure
 
+Here is the tree view of the `src` directory. The output from each section will be saved in the corresponding folder under the `result/` directory:
+
+![tree](https://imageupload.io/ib/JTjnBXgh9xdNnUa_1692782470.png)
 
 ## Raw data info
 
