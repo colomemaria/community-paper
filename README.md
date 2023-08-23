@@ -16,17 +16,7 @@ We applied `community` tool on three published datasets.
 
 **_NOTE:_** If you want to replicate the results and skip the preprocessing step of each dataset, you can download the pre-processed datasets from the following Zenodo links. Alternatively, you can run the following command to download the datasets into their corresponding directories and proceed to run the notebooks.
 
-The initial step of the analysis is conducted using the R module in the Jupyter Notebook `/src/data_preprocessing/$dataset/1.preprocess_data.ipynb`. This module handles tasks such as cleaning and processing the raw data, as well as annotating the data using relevant files.
-
-Subsequently, the processed data from the first step is filtered through the Jupyter Notebook `/src/data_preprocessing/$dataset/2.filtering.ipynb`. This R module filters out cells with low library size and low gene count. The resulting processed data is stored in the `.RData` format within the `/results/data_preprocessing/$dataset/` directory.
-
-Moving forward, the next stage, accomplished using the Jupyter Notebook `/src/data_preprocessing/$dataset/3.normalization.ipynb`, employs the Scran package in R for data normalization. The input for this stage is the filtered data obtained in the previous step, available in the `/results/data_preprocessing/$dataset/filtered/` directory.
-
-The Jupyter Notebook `/src/data_preprocessing/$dataset/4.1.batch_correction.ipynb` utilizes the Python-based scgen library for batch correction. The input for this step is the normalized data from the previous stage.
-
-**Warning:** Please be aware that running this notebook might take a substantial amount of time, depending on your computing system's specifications. It took nearly 14 hours to complete on a system with 128GB RAM and 30 CPUs. However, you can expedite the process by running it on a GPU node.
-
-Lastly, the Jupyter Notebook `4.2.visualization.ipynb` is employed to visualize the processed data.
+# INSERT TREE VIEW OF THE DIR
 
 
 ## Raw data info
