@@ -5,7 +5,7 @@ This repository contains the preprocessing pipeline and analysis steps for the s
 
 1. **Data Source and Selection**:
    - We utilized publicly available scRNAseq data from bone marrow samples of healthy and AML individuals [(doi)](https://doi.org/10.1038/s43018-022-00480-0).
-   - The normalized read counts and annotation files were acquired from the [GSE185381](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE185381) dataset.
+   - The raw read counts and annotation files were acquired from the [GSE185381](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE185381) dataset.
    - In the AML cohort, we specifically included samples collected at diagnosis.
    - Duplicated samples from healthy individuals #4 and #5 were excluded, resulting in a dataset of 14 samples.
 
