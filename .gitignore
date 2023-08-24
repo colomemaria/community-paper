@@ -204,3 +204,4 @@ results/data_preprocessing/Similie/counts_corr.csv.gz
 .git/objects/pack/pack-be95817df84593fa885c10cf1888c434ca00d44c.pack
 results/data_preprocessing/Lasry/counts_corr.csv.gz
 results/data_preprocessing/Similie/counts_corr.csv.gz
+**/.DS_Store
