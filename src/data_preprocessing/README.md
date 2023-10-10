@@ -8,6 +8,11 @@ In this section, we provide an overview of the preprocessing steps carried out f
 
 2. **Data Filtering**:
    - The processed data from the first step undergoes further filtering in the Jupyter Notebook: `./$dataset/2.filtering.ipynb`.
+   - The filtering processes include:
+        - Filter cells: by their presence in the cell annotation file
+        - Filter cell types: Cell types which have too few cells (less than 5 cells) per sample or are present in too few samples (less than in 30 samples) is filtered out.
+        - Filter genes: Individual genes might be specific to certain cell types in certain health conditions. We construct pseudo-bulk cell types (per sample) and filter out genes that have too low cumulative expression in these pseudo-bulks.
+        - Filter samples: Samples with less than 5 cell types will be filtered out.
    - This R module is responsible for filtering out cells with low library size and low gene count.
    - The resulting processed data is stored in the `.RData` format within the `/results/data_preprocessing/$dataset/` directory.
 
