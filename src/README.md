@@ -19,15 +19,14 @@ The `data_processing` section focuses on processing the published raw data from 
 
 The `method_comparison` section is divided into three parts:
 IT SHOULD HAVE THE FOLLOWING STRUCUTRE:
-- COMPARE DATABASES
-- COMPARE CELL COMMUNICATION RESULTS:
-  -- RUN XXX
-  -- RUN YYY
-  -- RUN ZZZ
-  -- COMPARE RESULTS
+- **compare_databases:** This directory contains notebooks that compare the ORIGINNAL LIGAND-RECEPTOR databases PROVIDED by each tool. 
+- **compare_cell_communication_results**
+-- RUN XXX
+-- RUN YYY
+-- RUN ZZZ
+-- COMPARE RESULTS
 
-- **compare_databases:** This directory contains notebooks that compare the ORIGINNAL databases PROVIDED by each tool. 
+THE RUN XXX, RUN YYY, AND RUN ZZZ DIRECTORIES INCLUDE A STEP OF CONSTRUCTING A UNIFIED LIGAND-RECEPTOR DATABASE (BASED ON THE COMMUNITY DATABASE) TO COMPARE THE PERFORMANCE OF THE TOOLS UNDER STANDARDIZED CONDITIONS, AS WELL AS THE COMMUNICATION ANALYSIS BY EACH TOOL.
 
-- **compare_algorithms:** TO COMPARE THE PERFORMANCE OF THE TOOLS UNDER STANDARDIZED CONDITIONS, we construct a custom unified database for each tool BASED ON THE COMMUNITY DATABASE.
+THE COMPARE RESULTS directory includes notebooks for visualizing and analyzing the output of each tool. 
 
-- **compare_results:** The directory includes notebooks for visualizing and analyzing the output of each tool. This allows us to assess the results obtained from various methods and gain insights into their strengths and weaknesses.
