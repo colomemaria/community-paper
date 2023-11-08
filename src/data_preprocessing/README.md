@@ -34,3 +34,6 @@ This section provides an overview of the preprocessing steps applied to each dat
 - **Notebook:** `./$dataset/4.2.visualization.ipynb`
 - **Language:** R
 - **Tasks:** This notebook visualizes the processed data, offering insights into the results of the preprocessing pipeline.
+
+
+ADD A BRIEF SUMMARY OF WHAT FILES ARE PASSED TO COMMUNITY, WHAT IS THE STRUCTURE OF THESE FILES AND WHAT COLUMN NAMES ARE ESSENTIAL.
