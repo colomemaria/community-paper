@@ -33,3 +33,4 @@ This repository contains the preprocessing pipeline and analysis steps for the s
    - To maintain a balanced cell type representation across all samples, a sample with less than 7 cell types was removed.
    - Ultimately, 13 samples and 46,702 total cells were included in the final dataset.
 
+MENTION THAT THE DATA IS ALREADY NORMALIZED SO NO EXTRA NORMALIZATION STEP WAS PERFORMED.
