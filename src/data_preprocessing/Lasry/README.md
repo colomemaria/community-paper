@@ -19,7 +19,7 @@ This repository contains the preprocessing pipeline and analysis steps for the s
 
 5. **Cell Type Filtering**:
    - Cell subtypes were categorized into 11 larger classes: HSPC, monocytes, granulocytes, DC, erythrocytes, megakaryocytes, perivascular cells, lymP, B-cells, T-cells, and NK. CELL RELABELLING CAN BE FOUND HERE (LINK TO THE CELL RELABELLING TABLE)
-   - We merged mutation-bearing cells ("-like") and their healthy counterparts into the same cell type categories. ALL OTHER SENTENCES IN THIS SECTION ARE IN PASSIVE VIOCE -> DO THIS ONE IN THE PASSIVE VIOCE TOO. IN GENERAL, DON'T RANDOMLY SWITCH VIOCES IN THE TEXT. THINK FIRST WHAT SECTION SHOULD BE IN WHICH VOICE AND THEN STICK TO IT.
+   - We merged mutation-bearing cells ("-like") and their healthy counterparts into the same cell type categories. ALL OTHER SENTENCES IN THIS SECTION ARE IN PASSIVE VIOCE -> DO THIS ONE IN THE PASSIVE VIOCE TOO. IN GENERAL, DON'T RANDOMLY SWITCH VIOCES IN THE TEXT. THINK FIRST WHAT SECTION SHOULD BE IN WHICH VOICE AND THEN STICK TO IT. APART FROM THAT, LASRY HAD "-LKE" TYPE OF CELLS? I REMEMBER IT FOR VANGALEN, BUT I DON#T REMEMBER IT FOR LASRY -> PLEASE DOUBLE CHECK.
    - Cell types were considered well-represented if they had at least 5 cells in each sample and were captured in at least 12 samples. Megakaryocytes, perivascular cells, and lymP cells did not meet these criteria and were excluded from the analysis. 
    - As a result, 8 cell types and 56,662 total cells were retained in the dataset.
 
