@@ -10,21 +10,20 @@ This repository contains the preprocessing pipeline and analysis steps for the s
 
 3. **Gene Filtering**:
    - In the initial pre-processing step, genes with all-zero values were removed.
-   - This filtering process resulted in a dataset containing 31,843 genes.
+   - This filtering process resulted in a dataset containing 31,843 genes. ALSO WEAKLY EXPRESSED GENES WERE REMOVED!! IS THIS NUMBER A FINAL NUMBER OR ONLY AFTER ZERO-VALUE GENE REMOVAL?? -> IF IT IS ONLY ABOUT REMOVING THE ZERO-VALUES GENES, I WOULD NOT MENTION IT HERE, AS IT IS CONFUSING. YOU HAVE THE GENE FILTERING LATER ON.
 
 4. **Cell Filtering**:
-   - To ensure data quality, several filters were applied to cells, cell types, genes, and samples.
+   - To ensure data quality, several filters were applied to cells, cell types, genes, and samples. YOU ARE TALKING AXPLICITLY ABOUT THE CELL FILTERING HERE. WHY THIS SENTENSE ABOUT OTHER THREE TYPES OF FILTER? WHAT SENSE DOES IT MAKE HERE?
    - Cells with a library size between 1,100 and 30,000 reads were retained, and cells with greater than 500 expressed genes were kept.
-   - After this step, 57,420 cells remained in the dataset.
+   - After this step, 57,420 cells remained in the dataset. -> I LIKE THIS SENTENSE. IT IS VERY CLEAR. PLEASE USE THIS STYLE FOR THE OTHER FILTERS AS WELL. 
 
-5. **Cell Type Classification and Filtering**:
-   - Cell subtypes were categorized into 11 larger classes, such as HSPC, monocytes, granulocytes, DC, erythrocytes, megakaryocytes, perivascular cells, lymP, B-cells, T-cells, and NK.
-   - We merged mutation-bearing cells ("-like") and their healthy counterparts into the same cell type categories.
-   - Cell types were considered well-represented if they had at least 5 cells in each sample and were captured in at least 12 samples.
-   - Some cell types (megakaryocytes, perivascular cells, and lymP cells) did not meet these criteria and were excluded from the analysis.
+5. **Cell Type Filtering**:
+   - Cell subtypes were categorized into 11 larger classes: HSPC, monocytes, granulocytes, DC, erythrocytes, megakaryocytes, perivascular cells, lymP, B-cells, T-cells, and NK. CELL RELABELLING CAN BE FOUND HERE (LINK TO THE CELL RELABELLING TABLE)
+   - We merged mutation-bearing cells ("-like") and their healthy counterparts into the same cell type categories. ALL OTHER SENTENCES IN THIS SECTION ARE IN PASSIVE VIOCE -> DO THIS ONE IN THE PASSIVE VIOCE TOO. IN GENERAL, DON'T RANDOMLY SWITCH VIOCES IN THE TEXT. THINK FIRST WHAT SECTION SHOULD BE IN WHICH VOICE AND THEN STICK TO IT.
+   - Cell types were considered well-represented if they had at least 5 cells in each sample and were captured in at least 12 samples. Megakaryocytes, perivascular cells, and lymP cells did not meet these criteria and were excluded from the analysis. 
    - As a result, 8 cell types and 56,662 total cells were retained in the dataset.
 
-6. **Gene Expression Filtering**:
+6. **Gene Filtering**: 
    - To filter out weakly expressed genes, cell type pseudobulks were constructed by calculating the mean expression of a gene over the cells in an individual cell type of a sample.
    - Cumulative pseudobulk counts were calculated for each gene by summing up the expression over the pseudobulks where it was detected.
    - Genes with a cumulative pseudobulk count greater than 0.25 were retained.
