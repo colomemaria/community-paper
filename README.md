@@ -1,6 +1,6 @@
 # Community paper analysis
 
-This repository contains a Python module and Jupyter Notebooks with R workflows for pre-processing of the single cell RNAseq datasets, which are used as showcases for cell-cell communication analysis with the _community_ tool. The cell-cell communication analysis of these datasets can be found INSERT LINK TO THE COMMUNITY REPO HERE. 
+This repository contains a Python module and Jupyter Notebooks with R workflows for pre-processing of the single cell RNAseq datasets, which are used as showcases for cell-cell communication analysis with the `community` tool. The cell-cell communication analysis of these datasets can be found INSERT LINK TO THE COMMUNITY REPO HERE. 
 
 ## Aim / Overveiw
 
@@ -9,13 +9,14 @@ The objective of this repository is to reproduce the analysis of the expression 
 
 
 ## Raw data info
+WE DO NOT APPLY COMMUNITY IN THIS REPO. PLEASE CORRECT
 We applied `community` tool on three published datasets.
     
-1. Lasry, the dataset associated with this research has undergone peer review and has been published in the journal Nature Cancer. The publication can be accessed via the following link: https://doi.org/10.1038/s43018-022-00480-0. The raw dataset can be downloaded by running `./download_raw_data.sh --lasry`. 
-2. Similie, a published scRNA dataset of 48 biopsies taken from the colon of 12 healthy and 18 ulcerative colitis(UC) individuals. This publication can be access via the following link: https://doi.org/10.1016/j.cell.2019.06.029. 
-3. VanGalen_Hourigan, to study the alterations in cell-to-cell communication in AML, we constructed an integrated dataset containing the single-cell RNA sequencing (scRNAseq) profiles of bone marrow from healthy individuals ( [Oetjen et al., 2018](https://doi.org/10.1172/jci.insight.124928)) and AML patients at diagnosis ([vanGalen et al., 2019](https://doi.org/10.1016/j.cell.2019.01.031),). The raw read counts and annotation files were acquired from [GSE116256](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116256) and [GSE120221](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120221) datasets. The raw dataset can be downloaded by running `./download_raw_data.sh --hourigan`.
+1. Lasry et al, JOURNAL YEAR. The publication can be accessed via the following link: https://doi.org/10.1038/s43018-022-00480-0. The raw dataset can be downloaded by running `./download_raw_data.sh --lasry`. 
+2. Similie et al, JOURNAL YEAR. This publication can be access via the following link: https://doi.org/10.1016/j.cell.2019.06.029. 
+3. CORRECT THE NAME OF THE DATASET, MAKE SAME STYLE AS IN 1 AND 2: VanGalen_Hourigan, to study the alterations in cell-to-cell communication in AML, we constructed an integrated dataset containing the single-cell RNA sequencing (scRNAseq) profiles of bone marrow from healthy individuals ( [Oetjen et al., 2018](https://doi.org/10.1172/jci.insight.124928)) and AML patients at diagnosis ([vanGalen et al., 2019](https://doi.org/10.1016/j.cell.2019.01.031),). The raw read counts and annotation files were acquired from [GSE116256](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116256) and [GSE120221](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120221) datasets. The raw dataset can be downloaded by running `./download_raw_data.sh --hourigan`.
 
-You can download both datasets to corresponding directories by simply running
+You can download both (YOU HAVE FOUR DATASETS -- WHICH DO YOU MEAN HERE??) datasets to corresponding directories by simply running
 
 `make download-data`
 
@@ -31,12 +32,12 @@ The repository is organized into two main directories: `/src` and `/results`. Be
 
 ## Supplementary tables
 
-If need this section.
+If need this section. YES, WE NEED THE CELL RELABELLING TABLE. PLEASE CONTACT FELIX AND UPLOAD THE TABLE HERE.
 
 
 ## Resource usage
 
-If this part is useful/neccessary, we need to check for this.
+If this part is useful/neccessary, we need to check for this. YOU CAN SKIP THIS.
 
 ## How to run
 
@@ -68,6 +69,7 @@ If this part is useful/neccessary, we need to check for this.
     
 ### Getting raw data
 
+WHY DO WE HAVE THE RAW DATA SECTION IN THE END HERE??? IF YOU HAVE NOT YET GIVEN A LINK TO THE RAW DATA, DO IT IN THE VERY BEGINNING, PLEASE. ALSO IT WOULD BE GOOD IF YOU MADE IT CLEAR FOR EACH DOWNLOAD LINK YOU PUT WHETHER IT IS THE ORIGINAL RAW DATA FROM THE PAPERS OR THE OUTPUT FILES AFTER OUR PREPROCESSING. I AM A BIT CONFUSED HERE.
 You can download the raw data to `/data/$dataset/raw_data` folder by running the below command. You can also visit the link here XXX_zenodo_link and download preprocessed files. 
 
 - Download raw data into` /data/$dataset/raw_data` directory
