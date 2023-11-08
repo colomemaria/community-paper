@@ -9,7 +9,7 @@ The objective of this repository is to reproduce the analysis of the expression 
 
 
 ## Raw data info
-WE DO NOT APPLY COMMUNITY IN THIS REPO. PLEASE CORRECT
+WE DO NOT APPLY COMMUNITY IN THE RAW DATA SECTION. PLEASE CORRECT
 We applied `community` tool on three published datasets.
     
 1. Lasry et al, JOURNAL YEAR. The publication can be accessed via the following link: https://doi.org/10.1038/s43018-022-00480-0. The raw dataset can be downloaded by running `./download_raw_data.sh --lasry`. 
