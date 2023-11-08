@@ -16,6 +16,7 @@ The `data_processing` section focuses on processing the published raw data from 
 - YOU HAVE BATCH CORRECTION FOR VANGALEN-OETJEN. NAME THE METHOD YOU USED, ADD LINK TO THE PUBLICATION.
 
 ### 2. method_comparison
+METHOD COMPARISON IS DONE ON THE XXX DATASET.
 
 The `method_comparison` section is divided into three parts:
 IT SHOULD HAVE THE FOLLOWING STRUCUTRE:
