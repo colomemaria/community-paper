@@ -1,5 +1,7 @@
 # Applying Community Algorithm to a Non-Hematological Context THE TITEL SHOULD BE IN THE SAME STYLE AS FOR LASRY.
 <div align='justify'>
+
+EVERYTHING SHOULD BE SAME STRUCTURE AS IN LASRY.
 This section illustrates how our `community` algorithm can be applied beyond hematological contexts. We employed the algorithm on a published single-cell RNA sequencing (scRNAseq) dataset involving colon biopsies. The dataset, consisting of 48 biopsies, was collected from 12 healthy individuals and 18 individuals with ulcerative colitis (UC) ([Smillie et al., 2019](https://doi.org/10.1016/j.cell.2019.06.029)). Biopsies from healthy patients included two separate areas of the colon, while UC patient samples encompassed both inflamed and non-inflamed tissue. The original dataset contained 366,650 individual cells, from which 365,492 cells were utilized for preprocessing.
 
 Due to the data structure, we merged presorted epithelial, immune, and fibroblast submatrices into a single counts matrix, attaching corresponding genes and cellular barcodes. To assess communication across different layers of each biopsy, we combined epithelial and lamina propria samples into single samples. Additionally, non-inflamed samples from UC patients were removed to enable a comparison between healthy and inflamed states.
