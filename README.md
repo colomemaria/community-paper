@@ -1,10 +1,10 @@
 # Community paper analysis
 
-This repository contains a Python module and Jupyter Notebooks with R workflows for pre-processing of the single cell RNAseq datasets, which are used as showcases for cell-cell communication analysis with the `community` tool. The cell-cell communication analysis of these datasets can be found INSERT LINK TO THE COMMUNITY REPO HERE. 
+This repository contains a Python module and Jupyter Notebooks with R workflows for pre-processing of the single cell RNAseq datasets, which are used as showcases for cell-cell communication analysis with the `community` tool. The cell-cell communication analysis of these datasets can be found INSERT LINK TO THE COMMUNITY REPO HERE. YOU NEED TO MAKE CLEAR THAT THERE ARE TWO THINGS IN THIS REPO: 1. THE PRE-PROCESSIN OF THE DATASETS THAT WILL BE RUN WITH COMMUNITY -> LINK TO THE COMMUNITY REPO, 2. THE METHOD COMPARISON PART. TO BE HONSET, I DON'T SEE WHY WE NEED WHY WE NEED SEPARATELY THIS PART, AND RIGHT BELOW THE AIM / OVERVIEW PART. TO ME THE INFORMATION YOU HAVE IN BOTH THESE SECTIONS IS SIMILAR, SO I WOULD EVEN SUGGEST, YOU REMOVE THIS PARAGRAPH AND JUST SAY WAHT YOU WANT TO SAY IN THE AIM/OVERVIEW.
 
 ## Aim / Overveiw
 
-THIS IS NOT THE AIM OF THIS REPOSITORY. PLEASE CORRECT. THE AIM PF THIS REPO IS THE DATA PRE_PROCESSING.
+YOU NEED TO MAKE CLEAR THAT THERE ARE TWO THINGS IN THIS REPO: 1. THE PRE-PROCESSIN OF THE DATASETS THAT WILL BE RUN WITH COMMUNITY -> LINK TO THE COMMUNITY REPO, 2. THE METHOD COMPARISON PART. 
 The objective of this repository is to reproduce the analysis of the expression in cell-cell communication in disease state and identify potential differences in cell-cell communication in the diseased state. By doing so, the `community` tool will provide insights into the mechanisms of cell-cell communication and its potential role in the development of AML.
 
 
