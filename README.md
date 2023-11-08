@@ -1,9 +1,10 @@
 # Community paper analysis
 
-This repository contains a Python module and Jupyter Notebooks with R workflows for processing and analyzing cell-cell communication data. The aim of this tool is to identify ligand-receptor interactions between cells and analyze potential differences in cell-cell communication in a diseased state, particularly in Acute Myeloid Leukemia (AML). The output of the analysis will include tables and figures.
+This repository contains a Python module and Jupyter Notebooks with R workflows for pre-processing of the single cell RNAseq datasets, which are used as showcases for cell-cell communication analysis with the _community_ tool. The cell-cell communication analysis of these datasets can be found INSERT LINK TO THE COMMUNITY REPO HERE. 
 
 ## Aim / Overveiw
 
+THIS IS NOT THE AIM OF THIS REPOSITORY. PLEASE CORRECT. THE AIM PF THIS REPO IS THE DATA PRE_PROCESSING.
 The objective of this repository is to reproduce the analysis of the expression in cell-cell communication in disease state and identify potential differences in cell-cell communication in the diseased state. By doing so, the `community` tool will provide insights into the mechanisms of cell-cell communication and its potential role in the development of AML.
 
 
