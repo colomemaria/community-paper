@@ -33,5 +33,3 @@ This repository contains the preprocessing pipeline and analysis steps for the s
    - To maintain a balanced cell type representation across all samples, a sample with less than 7 cell types was removed.
    - Ultimately, 13 samples and 46,702 total cells were included in the final dataset.
 
-Please note that this repository is intended to document and share the preprocessing pipeline and data filtering steps undertaken in our study. It serves as a valuable resource for reproducibility and transparency in scRNAseq analyses.
-
