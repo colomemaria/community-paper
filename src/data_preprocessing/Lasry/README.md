@@ -6,7 +6,7 @@ This repository contains the preprocessing pipeline and analysis steps for the s
 1. **Data Source and Selection**:
    I DELETED THE FIRST TWO POINT WITH THE LINKS. YOU JUST GAVE THEM IN THE PARAGRAPH ABOVE -> NO NEED TO REPEAT IT HERE AGAIN.
    - In the AML cohort, we specifically included samples collected at diagnosis. 
-   - Duplicated samples from healthy individuals #4 and #5 were excluded, resulting in a dataset of 14 samples. NAME THE EXACT IDS OF THE EXCLUDED SAMPLES, IF AVAILABLE. IS 14 SAMPLES THE HEALTHY COHORT OR THE HEALTHY + AML COHORT? IF IT IS THE FULL COHORT, PUT IT AS A SEPARATE SENTENCE BELOW, AND NOT TO THE POINT ABOUT THE HEALTHY
+   - Duplicated samples from healthy individuals #4 and #5 were excluded, resulting in a dataset of 14 samples. NAME THE EXACT IDS OF THE EXCLUDED SAMPLES, IF AVAILABLE. IS 14 SAMPLES THE HEALTHY COHORT OR THE HEALTHY + AML COHORT? IF IT IS THE FULL COHORT, PUT IT AS A SEPARATE SENTENCE BELOW, AND NOT TO THE POINT ABOUT THE HEALTHY. SAY EXPLICITLY THAT IT IS THE NUMBER OF SAMPLES WICH IS THE INPUT TO THE PRE-PRCESSING PIPELINE, SUCH THAT PEOPLE DON'T THINK IT IS THE FINAL NUMBER
 
 3. **Gene Filtering**:
    - In the initial pre-processing step, genes with all-zero values were removed.
