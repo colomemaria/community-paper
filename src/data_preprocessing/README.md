@@ -21,7 +21,7 @@ This section provides an overview of the preprocessing steps applied to each dat
 - **Notebook:** `./$dataset/3.normalization.ipynb`
 - **Language:** R, using the Scran package LINK
 - **Input:** Filtered data from the previous step.
-- ANY OUTPUT YOU CREATE HERE? SAY THAT FOR LASRY AND SMILLIE, THIS IS THE OUTPUT THAT YOU USE FOR THE COMMUNITY. GIVE THE LINK TO THE ZENODO AGAIN, WHERE THE USE CAN DOWNLOAD THE FILES
+- ANY OUTPUT YOU CREATE HERE? SAY THAT FOR SMILLIE, THIS IS THE OUTPUT THAT YOU USE FOR THE COMMUNITY. MENTION THAT LASRY DATA WAS ALREADY NORMALIZED, SO NO NORMALIZATION STEP WAS NEEDED. GIVE THE LINK TO THE ZENODO AGAIN, WHERE THE USE CAN DOWNLOAD THE FILES
 
 ### 4. Batch Correction
 - **Notebook:** `./$dataset/4.1.batch_correction.ipynb`
