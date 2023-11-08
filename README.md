@@ -8,7 +8,14 @@ YOU NEED TO MAKE CLEAR THAT THERE ARE TWO THINGS IN THIS REPO: 1. THE PRE-PROCES
 The objective of this repository is to reproduce the analysis of the expression in cell-cell communication in disease state and identify potential differences in cell-cell communication in the diseased state. By doing so, the `community` tool will provide insights into the mechanisms of cell-cell communication and its potential role in the development of AML.
 
 
-## Raw data info
+## Directory Structure
+
+The repository is organized into two main directories: `/src` and `/results`. Below is the tree view of the `/src` directory which contains Jupyter Notebooks. The output from each section will be saved in the corresponding folder under the `/result/` directory.
+
+![tree](https://imageupload.io/ib/JTjnBXgh9xdNnUa_1692782470.png)
+
+
+## Data pre-processing
 WE DO NOT APPLY COMMUNITY IN THE RAW DATA SECTION. PLEASE CORRECT
 We applied `community` tool on three published datasets.
     
@@ -23,17 +30,14 @@ You can download both (YOU HAVE FOUR DATASETS -- WHICH DO YOU MEAN HERE??) datas
 **_NOTE:_** If you want to replicate the results and skip the preprocessing step of each dataset, you can download the pre-processed datasets from the following Zenodo links. 
 
 
-## Directory Structure
-
-The repository is organized into two main directories: `/src` and `/results`. Below is the tree view of the `/src` directory which contains Jupyter Notebooks. The output from each section will be saved in the corresponding folder under the `/result/` directory.
-
-![tree](https://imageupload.io/ib/JTjnBXgh9xdNnUa_1692782470.png)
-
-
-## Supplementary tables
+### Supplementary tables -> IT BELONGS TO THE DATA PRE-PROCESSING SECTION, SO MAKE IT PART OF IT PLEASE
 
 If need this section. YES, WE NEED THE CELL RELABELLING TABLE. PLEASE CONTACT FELIX AND UPLOAD THE TABLE HERE.
 
+
+## Method comparison
+
+DESCRIPTION OF THIS BRANCH HERE
 
 ## Resource usage
 
@@ -67,9 +71,9 @@ If this part is useful/neccessary, we need to check for this. YOU CAN SKIP THIS.
 - Open:
     - [`src/1.preprocess_data.ipynb` Notebook](http://localhost:8888/notebooks/src/1.preprocess_data.ipynb) to run the demo workflow.
     
-### Getting raw data
+### Getting raw data -> TO THE DATA PRE-PROCESSING SECTION
 
-WHY DO WE HAVE THE RAW DATA SECTION IN THE END HERE??? IF YOU HAVE NOT YET GIVEN A LINK TO THE RAW DATA, DO IT IN THE VERY BEGINNING, PLEASE. ALSO IT WOULD BE GOOD IF YOU MADE IT CLEAR FOR EACH DOWNLOAD LINK YOU PUT WHETHER IT IS THE ORIGINAL RAW DATA FROM THE PAPERS OR THE OUTPUT FILES AFTER OUR PREPROCESSING. I AM A BIT CONFUSED HERE.
+IF YOU HAVE NOT YET GIVEN A LINK TO THE RAW DATA, DO IT IN THE VERY BEGINNING, PLEASE. ALSO IT WOULD BE GOOD IF YOU MADE IT CLEAR FOR EACH DOWNLOAD LINK YOU PUT WHETHER IT IS THE ORIGINAL RAW DATA FROM THE PAPERS OR THE OUTPUT FILES AFTER OUR PREPROCESSING. I AM A BIT CONFUSED HERE.
 You can download the raw data to `/data/$dataset/raw_data` folder by running the below command. You can also visit the link here XXX_zenodo_link and download preprocessed files. 
 
 - Download raw data into` /data/$dataset/raw_data` directory
