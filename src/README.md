@@ -8,17 +8,18 @@ The `data_processing` section focuses on processing the published raw data from 
 
 - **Initial Cleaning:**  Cleaning and processing the raw data
 
-- **Filtering:** This step involves filtering out cell types that have too few cells, as well as identifying individual genes that may be specific to certain cell types under certain health conditions.
+- **Filtering:** LIST EXPLICITLY THE FOUR FILTERING STEPS. YOU ONLY MENTIONTWO OF THE HERE, AND THE MOST IMPORTANT ONES ARE NOT MENTIONED AT THE MOMENT. This step involves filtering out cell types that have too few cells, as well as identifying individual genes that may be specific to certain cell types under certain health conditions.
 
-- **Normalization:** The data is normalized to ensure that different samples are comparable and that any biases are minimized.
+- **Normalization:** The data is normalized WITH SCRAN (LINK TO SCRAN PUBLICATION). The normalization is done within each cell type separately (-> PLEASE DOUBLE CHECK THAT IT IS TRUE FOR ALL DATASETS) in order to keep the cell-type intrinsic difference in the total RNA levels.
 
-- **UMAP Visualization:** The processed data is visualized using the UMAP, which helps in identifying patterns and relationships among the cells.
+- **UMAP Visualization:** The processed data is visualized using the UMAP.
+- YOU HAVE BATCH CORRECTION FOR VANGALEN-OETJEN. NAME THE METHOD YOU USED, ADD LINK TO THE PUBLICATION.
 
 ### 2. method_comparison
 
 The `method_comparison` section is divided into three parts:
 
-- **compare_databases:** This directory contains notebooks that compare the official databases used by each tool. By analyzing the databases, we can evaluate the quality and comprehensiveness of the data sources employed by different tools.
+- **compare_databases:** This directory contains notebooks that compare the ORIGINNAL databases PROVIDED by each tool. 
 
 - **compare_algorithms:** Here, in addition to running the tools, we construct a custom unified database for each tool, allowing us to compare the performance of different algorithms under standardized conditions. This ensures a fair and unbiased comparison.
 
