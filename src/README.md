@@ -4,30 +4,19 @@ This section provides an overview of the directory structure for our GitHub repo
 
 ### 1. data_processing
 
-The `data_processing` section focuses on processing the published raw data from Lasry and Similie. The data processing pipeline involves several steps such as:
+The `data_processing` section focuses on processing the published data from Lasry et al., Similie et al., and Integrated van Galen et al. - Oetjen et al The data processing pipeline involves several steps such as: initial cleaning, filtering, normalization and batch correction (if applicable). For a detailed overview of our preprocessing steps, please go to (data_preprocessing directory)[./data_preprocessing].
 
-- **Initial Cleaning:**  Cleaning and processing the raw data
-
-- **Filtering:** LIST EXPLICITLY THE FOUR FILTERING STEPS. YOU ONLY MENTIONTWO OF THE HERE, AND THE MOST IMPORTANT ONES ARE NOT MENTIONED AT THE MOMENT. This step involves filtering out cell types that have too few cells, as well as identifying individual genes that may be specific to certain cell types under certain health conditions.
-
-- **Normalization:** The data is normalized WITH SCRAN (LINK TO SCRAN PUBLICATION). The normalization is done within each cell type separately (-> PLEASE DOUBLE CHECK THAT IT IS TRUE FOR ALL DATASETS) in order to keep the cell-type intrinsic difference in the total RNA levels.
-
-- **UMAP Visualization:** The processed data is visualized using the UMAP.
-- YOU HAVE BATCH CORRECTION FOR VANGALEN-OETJEN. NAME THE METHOD YOU USED, ADD LINK TO THE PUBLICATION.
 
 ### 2. method_comparison
 METHOD COMPARISON IS DONE ON THE XXX DATASET. ->  SAY ON WHAT DATASET THE COMPARISON OF THE COMMUNICATION RESULTS WAS DONE AND ON WHAT DATASET THE RESURCE USAGE WAS DONE.
 
 The `method_comparison` section is divided into three parts:
 IT SHOULD HAVE THE FOLLOWING STRUCUTRE:
-- **compare_databases:** This directory contains notebooks that compare the ORIGINNAL LIGAND-RECEPTOR databases PROVIDED by each tool. 
-- **compare_cell_communication_results**
--- RUN XXX
--- RUN YYY
--- RUN ZZZ
--- COMPARE RESULTS
-
-THE RUN XXX, RUN YYY, AND RUN ZZZ DIRECTORIES INCLUDE A STEP OF CONSTRUCTING A UNIFIED LIGAND-RECEPTOR DATABASE (BASED ON THE COMMUNITY DATABASE) TO COMPARE THE PERFORMANCE OF THE TOOLS UNDER STANDARDIZED CONDITIONS, AS WELL AS THE COMMUNICATION ANALYSIS BY EACH TOOL.
+- **compare_databases:** Here, we explore and compare the original ligand-receptor databases as provided by each cell communication tool. The objective is to assess the variance between the databases and shared characteristics. 
+- **compare_algorithms:** This directory is systemetically arranged into sub-dirs of each tool:
+    * **run_run_NicheNet:** Contains the process of creating a standarized ligand-receptor database, derived from the `community` database, which is then used to analyze cell communication with NicheNet
+    * **run_CellPhoneDB:** Foloows the same procedure as run_NicheNet, tailored for CellPhoneDB
+    * **run_community**: running the community on the datasets. 
 
 THE COMPARE RESULTS directory includes notebooks for visualizing and analyzing the output of each tool. 
 
