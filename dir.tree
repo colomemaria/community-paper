@@ -1,72 +1,18 @@
 .
-├── data
-│   ├── Lasry
-│   │   └── raw_data
-│   ├── Simillie
-│   │   └── raw_data
-│   └── vanGalen_Hourigan
-│       └── raw_data
-├── results
-│   ├── data_preprocessing
-│   │   ├── Lasry
-│   │   │   ├── filtered
-│   │   │   ├── normalized
-│   │   │   └── preprocessed
-│   │   ├── Similie
-│   │   │   ├── batch_corrected
-│   │   │   ├── filtered
-│   │   │   ├── normalized
-│   │   │   └── preprocessed
-│   │   └── vanGalen_Hourigan
-│   │       ├── batch_corrected
-│   │       ├── community_analysis
-│   │       ├── filtered
-│   │       ├── normalized
-│   │       └── preprocessed
-│   └── method_comparison
-│       ├── build_customDB
-│       │   ├── CPDB
-│       │   └── NicheNet
-│       ├── compare_algorithms
-│       │   ├── Lasry
-│       │   │   ├── community
-│       │   │   ├── CPDB
-│       │   │   └── NicheNet
-│       │   ├── Similie
-│       │   │   ├── community
-│       │   │   ├── CPDB
-│       │   │   └── NicheNet
-│       │   └── vanGalen
-│       │       ├── community
-│       │       ├── CPDB
-│       │       └── NicheNet
-│       └── compare_defaultDB
 └── src
     ├── data_preprocessing
     │   ├── Lasry
     │   ├── Smillie
     │   └── vanGalen_Hourigan
-    ├── method_comparison
-    │   ├── compare_algorithms
-    │   │   ├── run_CellPhoneDB
-    │   │   │   ├── build_customDB
-    │   │   │   │   └── original_db
-    │   │   │   └── run_algorithm
-    │   │   ├── run_community
-    │   │   ├── run_NicheNet
-    │   │   │   ├── build_customDB
-    │   │   │   │   └── NNET_Custom
-    │   │   │   └── run_algorithm
-    │   │   └── run_seurat
-    │   ├── compare_databases
-    │   │   ├── ComparisonFigures
-    │   │   ├── inputs
-    │   │   ├── output_csv
-    │   │   └── restructure_CPDB
-    │   └── compare_results
-    └── resource_usage
-        ├── community
-        ├── cpdb
-        └── nn
-
-69 directories
+    └── method_comparison
+        ├── compare_algorithms
+        │   ├── run_CellPhoneDB
+        │   │   ├── build_customDB
+        │   │   └── run_algorithm
+        │   ├── run_community
+        │   ├── run_NicheNet
+        │   │   ├── build_customDB
+        │   │   └── run_algorithm
+        ├── compare_databases
+        ├── compare_results
+        └── resource_usage
