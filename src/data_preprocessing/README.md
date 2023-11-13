@@ -39,5 +39,7 @@ This section provides an overview of the preprocessing steps applied to each dat
 
 ### Brief Summary of Structure of Input Files
 **counts file:** normalized expression data frame containing gene symbols in the rows and cells in the columns.
+
 **anno samples:** data frame of the sample annotation from all samples (rows are sample IDs, columns: must contain "sample_ID" and "case_or_control" columns).
+
 **anno cells:** data frame of the cell annotation from all samples (rows are cell IDs, columns: must contain "cell_ID", "cell_type" and "sample_ID" columns).
