@@ -13,7 +13,7 @@ download_raw_data() {
 	wget https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE185381 -qO- | 
 
 	# Get the lines that contain "(scRNA-seq)" and grab the link
-	grep -B2 "(scRNA-seq)" | grep -Eoi '<a [^>]+>' | 
+	grep -B2 "(CITE-seq)" | grep -Eoi '<a [^>]+>' | 
 	grep -E 'href="/geo/query/acc.cgi' | 
 
 	# Cut the string at the "=" sign and take the 3rd field

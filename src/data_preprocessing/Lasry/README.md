@@ -4,33 +4,18 @@ This repository contains the preprocessing pipeline and analysis steps for the s
 ## Data Preprocessing Steps
 
 1. **Data Source and Selection**:
-   I DELETED THE FIRST TWO POINT WITH THE LINKS. YOU JUST GAVE THEM IN THE PARAGRAPH ABOVE -> NO NEED TO REPEAT IT HERE AGAIN.
    - In the AML cohort, we specifically included samples collected at diagnosis. 
-   - Duplicated samples from healthy individuals #4 and #5 were excluded, resulting in a dataset of 14 samples. NAME THE EXACT IDS OF THE EXCLUDED SAMPLES, IF AVAILABLE. IS 14 SAMPLES THE HEALTHY COHORT OR THE HEALTHY + AML COHORT? IF IT IS THE FULL COHORT, PUT IT AS A SEPARATE SENTENCE BELOW, AND NOT TO THE POINT ABOUT THE HEALTHY. SAY EXPLICITLY THAT IT IS THE NUMBER OF SAMPLES WICH IS THE INPUT TO THE PRE-PRCESSING PIPELINE, SUCH THAT PEOPLE DON'T THINK IT IS THE FINAL NUMBER
+   - Excluded duplicated samples from healthy individuals `healthy-4` and `healthy-5`. This resulted in a dataset of 14 samples, comprising both the healthy and AML cohorts, which serve as the input for the preprocessing pipeline. Additionally, genes with all-zero values were removed, resulting 31,843 genes.
 
-3. **Gene Filtering**:
-   - In the initial pre-processing step, genes with all-zero values were removed.
-   - This filtering process resulted in a dataset containing 31,843 genes. ALSO WEAKLY EXPRESSED GENES WERE REMOVED!! IS THIS NUMBER A FINAL NUMBER OR ONLY AFTER ZERO-VALUE GENE REMOVAL?? -> IF IT IS ONLY ABOUT REMOVING THE ZERO-VALUES GENES, I WOULD NOT MENTION IT HERE, AS IT IS CONFUSING. YOU HAVE THE GENE FILTERING LATER ON.
+2. **Cell Filtering:** Cells were filtered based on library size (between 1.100 and 30.00), and gene expression (more than 500 expressed genes). This filtering resulted in 57.420 cells remaining in the dataset.
+3. **Cell Type Filtering**: Cell subtypes were grouped into 11 larger classes: HSPC, monocytes, granulocytes, DC, erythrocytes, megakaryocytes, perivascular cells, lymphoid progenitor cells (lymP), B-cells, T-cells, and NK cells. Detailed information can be found in this [table.](https://github.com/colomemaria/community-paper/blob/main/data/cell_relabelling.csv)
 
-4. **Cell Filtering**:
-   - To ensure data quality, several filters were applied to cells, cell types, genes, and samples. YOU ARE TALKING AXPLICITLY ABOUT THE CELL FILTERING HERE. WHY THIS SENTENSE ABOUT OTHER THREE TYPES OF FILTER? WHAT SENSE DOES IT MAKE HERE?
-   - Cells with a library size between 1,100 and 30,000 reads were retained, and cells with greater than 500 expressed genes were kept.
-   - After this step, 57,420 cells remained in the dataset. -> I LIKE THIS SENTENSE. IT IS VERY CLEAR. PLEASE USE THIS STYLE FOR THE OTHER FILTERS AS WELL. 
+    Cell types with at least 5 cells per sample and presence in at least 12 samples were considered. Megakaryocytes, Perivascular cells, lymP cells, Natural killer, Dendritic cells, were excluded as they did not meet these criteria. 
 
-5. **Cell Type Filtering**:
-   - Cell subtypes were categorized into 11 larger classes: HSPC, monocytes, granulocytes, DC, erythrocytes, megakaryocytes, perivascular cells, lymP, B-cells, T-cells, and NK. CELL RELABELLING CAN BE FOUND HERE (LINK TO THE CELL RELABELLING TABLE)
-   - We merged mutation-bearing cells ("-like") and their healthy counterparts into the same cell type categories. ALL OTHER SENTENCES IN THIS SECTION ARE IN PASSIVE VIOCE -> DO THIS ONE IN THE PASSIVE VIOCE TOO. IN GENERAL, DON'T RANDOMLY SWITCH VIOCES IN THE TEXT. THINK FIRST WHAT SECTION SHOULD BE IN WHICH VOICE AND THEN STICK TO IT. APART FROM THAT, LASRY HAD "-LKE" TYPE OF CELLS? I REMEMBER IT FOR VANGALEN, BUT I DON#T REMEMBER IT FOR LASRY -> PLEASE DOUBLE CHECK.
-   - Cell types were considered well-represented if they had at least 5 cells in each sample and were captured in at least 12 samples. Megakaryocytes, perivascular cells, and lymP cells did not meet these criteria and were excluded from the analysis. 
-   - As a result, 8 cell types and 56,662 total cells were retained in the dataset.
+    This resulted in 6 cell types and 56.662 total cells being retained.
 
-6. **Gene Filtering**: 
-   - To filter out weakly expressed genes, cell type pseudobulks were constructed by calculating the mean expression of a gene over the cells in an individual cell type of a sample.
-   - Cumulative pseudobulk counts were calculated for each gene by summing up the expression over the pseudobulks where it was detected.
-   - Genes with a cumulative pseudobulk count greater than 0.25 were retained.
-   - This filtering process resulted in 15,770 genes.
 
-7. **Sample Filtering**:
-   - To maintain a balanced cell type representation across all samples, a sample with less than 7 cell types was removed.
-   - Ultimately, 13 samples and 46,702 total cells were included in the final dataset.
+4. **Gene Filtering**: Psuedo-bulk cells types were constructed (per sample) and filtered out genes that have too low cumulative expression in these pseudo-bulks. 15.770 genes left after this step.
+5. **Sample Filtering:** Samples were assessed for balanced cell type representation. Those with fewer than 7 distinct cell types were excluded from the analysis. The final dataset included 13 samples, a total of 46.702 cells.
 
-MENTION THAT THE DATA IS ALREADY NORMALIZED SO NO EXTRA NORMALIZATION STEP WAS PERFORMED.
+**Data Normalization:** The Lasry dataset was pre-normalized prior to our processing. Thus, no additional normalization steps were performed on this dataset as part of our preprocessing pipeline.
