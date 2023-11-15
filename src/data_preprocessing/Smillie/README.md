@@ -1,11 +1,28 @@
-# Applying Community Algorithm to a Non-Hematological Context THE TITEL SHOULD BE IN THE SAME STYLE AS FOR LASRY.
-<div align='justify'>
+# Smillie Preprocessing - ScRNAseq Analysis of Colon Biopsies from Healthy and UC Individuals
+This repository contains the preprocessing pipeline and analysis steps for the single-cell RNA sequencing (scRNAseq) data obtained from colon biopsies of healthy individuals and individuals with ulcerative colitis (UC). The raw data used in this study was sourced from the publicly available dataset [Smillie et al., 2019](https://doi.org/10.1016/j.cell.2019.06.029).
 
-EVERYTHING SHOULD BE SAME STRUCTURE AS IN LASRY.
-This section illustrates how our `community` algorithm can be applied beyond hematological contexts. We employed the algorithm on a published single-cell RNA sequencing (scRNAseq) dataset involving colon biopsies. The dataset, consisting of 48 biopsies, was collected from 12 healthy individuals and 18 individuals with ulcerative colitis (UC) ([Smillie et al., 2019](https://doi.org/10.1016/j.cell.2019.06.029)). Biopsies from healthy patients included two separate areas of the colon, while UC patient samples encompassed both inflamed and non-inflamed tissue. The original dataset contained 366,650 individual cells, from which 365,492 cells were utilized for preprocessing.
+## Data Preprocessing Steps
 
-Due to the data structure, we merged presorted epithelial, immune, and fibroblast submatrices into a single counts matrix, attaching corresponding genes and cellular barcodes. To assess communication across different layers of each biopsy, we combined epithelial and lamina propria samples into single samples. Additionally, non-inflamed samples from UC patients were removed to enable a comparison between healthy and inflamed states.
+1. **Data Source and Selection**:
+   - The dataset consists of 48 biopsies collected from 12 healthy individuals and 18 UC patients. Biopsies from healthy patients included two separate areas of the colon, while UC patient samples encompassed both inflamed and non-inflamed tissue.
+   - The original dataset contained 366,650 individual cells, with 365,492 cells utilized for preprocessing.
 
-Original 50 cell types were consolidated into 19 broader categories. To ensure quality communication analysis, we filtered for samples with read counts between 1000 and 30,000, along with more than 500 expressed genes. This filtering retained 160,707 cells out of 235,229. Cell types suitable for analysis had to be present in at least 5 cells per sample and captured in 40/48 or more samples, leaving us with 160,482 cells and 13 cell types. For a cell to be considered of good quality, 12 out of 13 cell types had to be present. To filter out weakly expressed genes while retaining cell type-specific genes, cell type pseudobulks were constructed. Good quality genes were defined as those with a pseudobulk count greater than 3, resulting in 13,861 genes out of 21,784.
+2. **Data Merging and Organization**:
+   - Presorted epithelial, immune, and fibroblast submatrices were merged into a single counts matrix, with corresponding genes and cellular barcodes.
 
-Further filtering was employed to address potential bias from having two samples from the same patient in the healthy cohort. In cases with the same patient ID, only the sample with the highest number of cell types was retained. If equal, the first sample in alphabetical order was kept. For patient N51, sample B was retained due to irregularly high cell numbers for sample A in certain cell types, which could lead to processing artifacts. This filtering yielded 28 samples (11 Healthy/17 Inflamed) and 100,000 cells for subsequent processing. Finally, the filtered data underwent normalization by cell type using scran. This normalization step was essential to account for variations in sample size and cell numbers across different types. Batch correction was performed using Scgen.</div>
+3. **Cell Filtering**:
+   - Cells were filtered based on library size (between 1.100 and 30.00), and gene expression (more than 500 expressed genes). This step retained 160,707 cells out of 235,229.
+
+4. **Cell Type Consolidation and Filtering**:
+   - Original 50 cell types were consolidated into 19 broader categories.
+   - Cell types had to be present in at least 5 cells per sample and captured in 40 or more samples, resulting in 160,482 cells and 13 cell types.
+
+5. **Gene Filtering**:
+   - Cell type pseudobulks were constructed for filtering. Genes with a pseudobulk count greater than 3 were considered good quality, resulting in 13,861 genes out of 21,784.
+
+6. **Sample Filtering**:
+   - To address bias from duplicate samples, the one with the highest number of cell types was retained. For patient N51, sample B was retained due to irregular cell numbers in sample A.
+   - This process yielded 28 samples (11 Healthy/17 Inflamed) and 100,000 cells for processing.
+
+7. **Data Normalization**:
+   - The filtered data underwent normalization by cell type using scran.
