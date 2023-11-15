@@ -14,7 +14,7 @@ This repository contains the preprocessing pipeline and analysis steps for the s
    - Cells were filtered based on library size (between 1.100 and 30.00), and gene expression (more than 500 expressed genes). This step retained 160,707 cells out of 235,229.
 
 4. **Cell Type Consolidation and Filtering**:
-   - Original 50 cell types were consolidated into 19 broader categories.
+   - Original 50 cell types were consolidated into 19 broader categories. Detailed information can be found in this [table.](https://github.com/colomemaria/community-paper/blob/main/data/cell_relabelling.csv)
    - Cell types had to be present in at least 5 cells per sample and captured in 40 or more samples, resulting in 160,482 cells and 13 cell types.
 
 5. **Gene Filtering**:
