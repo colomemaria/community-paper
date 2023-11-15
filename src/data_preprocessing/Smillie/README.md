@@ -24,5 +24,6 @@ This repository contains the preprocessing pipeline and analysis steps for the s
    - To address bias from duplicate samples, the one with the highest number of cell types was retained. For patient N51, sample B was retained due to irregular cell numbers in sample A.
    - This process yielded 28 samples (11 Healthy/17 Inflamed) and 100,000 cells for processing.
 
-7. **Data Normalization**:
+7. **Data Normalization and Batch Correction**:
    - The filtered data underwent normalization by cell type using scran.
+   - Batch effect correction carried out using scgen.
