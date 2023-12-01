@@ -9,7 +9,7 @@ sleep 2
 samples_dir=$1
 
 # Get a list of unique variable names (i.e., sample names) by extracting the first part of the file names in the directory and removing duplicates
-my_vars=$(ls "$samples_dir" | cut -d_ -f1,2 | uniq)
+my_vars=$(ls "$samples_dir" | cut -d_ -f1 | uniq)
 
 # Set the path to the custom database file
 custom_db=../../../../../results/method_comparison/build_customDB/CPDB/full.db

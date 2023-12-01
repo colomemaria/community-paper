@@ -3,10 +3,12 @@
 
 # Check for the argument and call the function accordingly
 if [ "$1" == "--lasry" ]; then
-    ./split.py 3 3 ../../../../../results/method_comparison/resoure_usage/Lasry/3_3/ ../../../../../results/data_preprocessing/Lasry/
+    ./split.py ../../../../../results/data_preprocessing/Lasry/ ../../../../../results/method_comparison/resoure_usage/Lasry/
     
     
-    Rscript lasry_community.r ../../../../../results/method_comparison/resoure_usage/Lasry/3_3/ & psrecord $(pgrep -f lasry_community.R) --interval 1 --log activity_Lasry_3_3_community.txt --plot plot_Lasry_3_3_community.png --include-children
+    Rscript lasry_community.r ../../../../../results/method_comparison/resoure_usage/Lasry/3_3/ & psrecord $(pgrep -f lasry_community.r) --interval 1 --log activity_Lasry_3_3_community.txt --plot plot_Lasry_3_3_community.png --include-children
+    
+    Rscript lasry_community.r ../../../../../results/method_comparison/resoure_usage/Lasry/7_6/ & psrecord $(pgrep -f lasry_community.r) --interval 1 --log activity_Lasry_7_6_community.txt --plot plot_Lasry_7_6_community.png --include-children
     
     
 #    jupyter run /src/method_comparison/compare_algorithms/run_CellPhoneDB/run_algorithm/run_CPDB_Lasry.ipynb

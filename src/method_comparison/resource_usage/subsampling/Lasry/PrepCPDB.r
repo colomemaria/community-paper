@@ -15,11 +15,14 @@ input_dir <- args[1]
 
 
 input_dir <- input_dir
-output_dir <- paste0(input_dir, "CPDB/")
+output_dir <- paste0(input_dir,"/CPDB/")
 #final_out <- "../../../../../results/method_comparison/compare_algorithms/Lasry/CPDB/"
+dir.create(file.path(output_dir))
+print("here is the input_dir")
+print(input_dir)
 
-
-
+print("here is the output_dir")
+print(output_dir)
 
 
 # # load counts
@@ -104,4 +107,6 @@ for (sample in unique(anno_cells$sample_ID)) {
 
 }
 
-system('conda run -n community_paper2 ./runCPDB.sh {output_dir}')
+output_dir <- paste0(output_dir, "/samples_DEGs/")
+
+system(paste('conda run -n cpdb2 ./runCPDB.sh', output_dir))
