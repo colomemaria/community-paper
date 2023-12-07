@@ -1,0 +1,7 @@
+	Unnamed: 0	sample_ID	patient_ID	dataset	gender	age	health_status	case_or_control	day	nr_cells_raw	nr_cells_cf	nr_cells_cf_ctf	total_counts_raw_cf_ctf_gf	nr_celltypes_cf_ctf_gf	threshold_nr_celltypes	passed_threshold_nr_celltypes
+5	5	AML556-D0	AML556	GSE116256	M	70	AML	case	0.0	2328	2196	2186	5957569	6	greater or equal 5	True
+8	8	AML921A-D0	AML921A	GSE116256	M	42	AML	case	0.0	3813	3574	3504	9902199	5	greater or equal 5	True
+1	1	AML210A-D0	AML210A	GSE116256	M	67	AML	case	0.0	748	640	603	1530216	6	greater or equal 5	True
+28	28	BM-R	R	GSE120221	M	31	healthy	control		2821	2573	2518	7128170	6	greater or equal 5	True
+21	21	BM-K	K	GSE120221	M	84	healthy	control		7024	6864	6093	21240810	6	greater or equal 5	True
+19	19	BM-H	H	GSE120221	F	50	healthy	control		3615	3366	3173	12517964	6	greater or equal 5	True

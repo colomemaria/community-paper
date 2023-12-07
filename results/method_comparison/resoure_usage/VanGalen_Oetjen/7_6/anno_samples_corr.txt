@@ -1,0 +1,14 @@
+	Unnamed: 0	sample_ID	patient_ID	dataset	gender	age	health_status	case_or_control	day	nr_cells_raw	nr_cells_cf	nr_cells_cf_ctf	total_counts_raw_cf_ctf_gf	nr_celltypes_cf_ctf_gf	threshold_nr_celltypes	passed_threshold_nr_celltypes
+2	2	AML328-D0	AML328	GSE116256	F	74	AML	case	0.0	1094	965	909	2367765	6	greater or equal 5	True
+4	4	AML420B-D0	AML420B	GSE116256	M	58	AML	case	0.0	485	399	388	968844	5	greater or equal 5	True
+8	8	AML921A-D0	AML921A	GSE116256	M	42	AML	case	0.0	3813	3574	3504	9902199	5	greater or equal 5	True
+7	7	AML916-D0	AML916	GSE116256	F	57	AML	case	0.0	933	869	868	1823082	5	greater or equal 5	True
+6	6	AML707B-D0	AML707B	GSE116256	M	26	AML	case	0.0	1586	1410	1407	4255900	6	greater or equal 5	True
+5	5	AML556-D0	AML556	GSE116256	M	70	AML	case	0.0	2328	2196	2186	5957569	6	greater or equal 5	True
+3	3	AML419A-D0	AML419A	GSE116256	F	54	AML	case	0.0	1189	1091	1086	2783381	5	greater or equal 5	True
+31	31	BM-U	U	GSE120221	F	46	healthy	control		3871	3517	3450	17786199	6	greater or equal 5	True
+13	13	BM-A	A	GSE120221	F	59	healthy	control		2821	2320	2274	16697271	6	greater or equal 5	True
+29	29	BM-Sk2	S	GSE120221	F	55	healthy	control		4636	4609	4238	10020997	6	greater or equal 5	True
+10	10	BM2	BM2	GSE116256	M	21	healthy	control		188	179	178	638897	6	greater or equal 5	True
+24	24	BM-N	N	GSE120221	M	67	healthy	control		4318	4125	4028	14085586	6	greater or equal 5	True
+12	12	BM4	BM4	GSE116256	M	23	healthy	control		3738	3431	3321	12885689	6	greater or equal 5	True
