@@ -14,3 +14,36 @@ To ensure a fair comparison between different communication tools, we standardiz
 
 # resource_usage: I need to first generate the scripts for this part as discussed with MariaS
 
+
+
+What is a cell type is not clear?
+
+
+send epianufinder 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
