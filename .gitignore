@@ -513,3 +513,5 @@ results/data_preprocessing/Similie/normalized/counts_norm.mtx
 results/data_preprocessing/Similie/counts_corr.csv.gz
 results/data_preprocessing/Similie/filtered/counts_cf_ctf_gf_sf.RData
 results/data_preprocessing/Similie/batch_corrected/counts_corr.csv.gz
+.git/objects/pack/pack-f6ab6a63756006f39a6d472c4413d2758d1bc5c1.pack
+results/data_preprocessing/Lasry/filtered/lasry_batch_corr.csv.gz
