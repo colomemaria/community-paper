@@ -12,14 +12,9 @@ The comparison of databases is facilitated through the [`/compare_databases`](./
 To ensure a fair comparison between different communication tools, we standardize the output result from each tool. The pipeline under the [/compare_algorithms/](./method_comparison/compare_algorithms) directory is used for running each tool with the same input dataset and database. The databases are generated using the [/build_customDB](./method_comparison/compare_algorithms) section for each tool. The outputs are then transformed into a unified format, enabling a thorough comparison of the results. This approach ensures that differences in the output are attributable to the inherent capabilities of each tool, rather than to variations in output format or database.
 
 
-# resource_usage: I need to first generate the scripts for this part as discussed with MariaS
+# Subsampling and Measuring Resource Usage
 
-
-
-What is a cell type is not clear?
-
-
-send epianufinder 
+As previously mentioned, our evaluation includes subsampling three datasets across a range from 6 to 32 samples. This method is designed to assess the adaptability of each tool to varying data sizes and complexities. In this section, we provide the subsampling scripts along with the resource measurements. Notably, all workflows were executed on a dedicated single node, equipped with 36 cores and 256GB of RAM.
 
 
 
