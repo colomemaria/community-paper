@@ -26,8 +26,10 @@ dependencies:
 - bioconductor-scran
 - bioconductor-scater
 - numpy
-- pandas
+- pandas==1.5.3
 - anndata
 - scvi-tools
 - scanpy
 - numba
+- bioconductor-omnipathr
+- bioconductor-mygene
