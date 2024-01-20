@@ -38,28 +38,40 @@ download_raw_data() {
 
 	    # Loop through the resulting file names and download them
 	    while read -r line; do 
-		wget https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5613nnn/$ID/suppl/$line -P data/data_preprocessing/Lasry/raw_data/
+		wget https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5613nnn/$ID/suppl/$line -P data/Lasry/raw_data/
 	    done
 	done < barcodes.txt
+	
+	mkdir GSE185381_RAW
+	
+	for f in *.gz; do
+	  STEM=$(basename "${f}" .gz)
+	  gunzip -c "${f}" > ./GSE185381_RAW/"${STEM}"
+	done	
 
-	gunzip -d data/data_preprocessing/Lasry/raw_data/*.gz
+	gunzip -d data/Lasry/raw_data/*.gz
+	
+	rm *.gz
 	
 	
 	
     elif [ "$dataset" == "Hourigan" ]; then
         # Create a directory to download
-	wget ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE116nnn/GSE116256/suppl/GSE116256_RAW.tar -P data/data_preprocessing/vanGalen_Hourigan/raw_data/
+	wget ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE116nnn/GSE116256/suppl/GSE116256_RAW.tar -P data/vanGalen_Hourigan/raw_data/
 
-	wget ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE120nnn/GSE120221/suppl/GSE120221_RAW.tar -P data/data_preprocessing/vanGalen_Hourigan/raw_data/
+	wget ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE120nnn/GSE120221/suppl/GSE120221_RAW.tar -P data/vanGalen_Hourigan/raw_data/
 
-	mkdir -p data/data_preprocessing/vanGalen_Hourigan/raw_data/GSE116256_RAW
-	mkdir -p data/data_preprocessing/vanGalen_Hourigan/raw_data/GSE120221_RAW
+	mkdir -p data/vanGalen_Hourigan/raw_data/GSE116256_RAW
+	mkdir -p data/vanGalen_Hourigan/raw_data/GSE120221_RAW
 
-	tar -xvf data/data_preprocessing/vanGalen_Hourigan/raw_data/GSE116256_RAW.tar --directory data/data_preprocessing/vanGalen_Hourigan/raw_data/GSE116256_RAW
-	tar -xvf data/data_preprocessing/vanGalen_Hourigan/raw_data/GSE120221_RAW.tar --directory data/data_preprocessing/vanGalen_Hourigan/raw_data/GSE120221_RAW
+	tar -xvf data/vanGalen_Hourigan/raw_data/GSE116256_RAW.tar --directory data/vanGalen_Hourigan/raw_data/GSE116256_RAW
+	tar -xvf data/vanGalen_Hourigan/raw_data/GSE120221_RAW.tar --directory data/vanGalen_Hourigan/raw_data/GSE120221_RAW
 
-	gunzip -d data/data_preprocessing/vanGalen_Hourigan/raw_data/GSE116256_RAW/*
-	gunzip -d data/data_preprocessing/vanGalen_Hourigan/raw_data/GSE120221_RAW/*
+	gunzip -d data/vanGalen_Hourigan/raw_data/GSE116256_RAW/*
+	gunzip -d data/vanGalen_Hourigan/raw_data/GSE120221_RAW/*
+	
+	rm *.tar
+	rm placeholder.yml
 	
 	
     else

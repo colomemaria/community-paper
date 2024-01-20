@@ -1,0 +1,118 @@
+cell_type_original;cell_type;source;cell_type_color;cell_type_color_hex;cell_type_shape;cell_subtype;cell_subtype_color;cell_subtype_color_hex
+B;B;van Galen et al., 2019;green;#4FC384;12;B;green;#4FC384
+CD10+ B cells;B;Oetjen et al., 2018;green;#4FC384;12;B;green;#4FC384
+CD20+ B cells;B;Oetjen et al., 2018;green;#4FC384;12;B;green;#4FC384
+ProB;B;van Galen et al., 2019;green;#4FC384;12;B;green;#4FC384
+Mono;Mono;van Galen et al., 2019;darkorange;#F09040;13;Mono;darkorange;#F09040
+CD14+ monocytes;Mono;Oetjen et al., 2018;darkorange;#F09040;13;Mono;darkorange;#F09040
+CD16+ monocytes;Mono;Oetjen et al., 2018;darkorange;#F09040;13;Mono;darkorange;#F09040
+Mono-like;Mono;van Galen et al., 2019;darkorange;#F09040;13;Mono;darkorange;#F09040
+ProMono;Mono;van Galen et al., 2019;darkorange;#F09040;13;pro_Mono;orange;#F0AD40
+Monocyte progenitors;Mono;Oetjen et al., 2018;darkorange;#F09040;13;pro_Mono;orange;#F0AD40
+ProMono-like;Mono;van Galen et al., 2019;darkorange;#F09040;13;pro_Mono;orange;#F0AD40
+T;T;van Galen et al., 2019;blue;#4F92EE;12;CD4_T;lightblue;#4FCCEE
+CD4+ memory T cells;T;Oetjen et al., 2018;blue;#4F92EE;12;CD4_T;lightblue;#4FCCEE
+CD4+ naive T cells;T;Oetjen et al., 2018;blue;#4F92EE;12;CD4_T;lightblue;#4FCCEE
+CD8+ effector T cells;T;Oetjen et al., 2018;blue;#4F92EE;12;CD8_T;blue;#4F92EE
+CD8+ naive T cells;T;Oetjen et al., 2018;blue;#4F92EE;12;CD8_T;blue;#4F92EE
+CTL;T;van Galen et al., 2019;blue;#4F92EE;12;CD8_T;blue;#4F92EE
+pDC;DC;van Galen et al., 2019;brown;#854701;15;pDC;darkbrown;#854701
+Plasmacytoid dendritic cells;DC;Oetjen et al., 2018;brown;#854701;15;pDC;darkbrown;#854701
+cDC;DC;van Galen et al., 2019;brown;#854701;15;cDC;brown;#B95D10
+Dendritic cells;DC;Oetjen et al., 2018;brown;#854701;15;cDC;brown;#B95D10
+cDC-like;DC;van Galen et al., 2019;brown;#854701;15;cDC;brown;#B95D10
+earlyEry;Ery;van Galen et al., 2019;red;#F72E3A;19;early_Ery;red;#F72E3A
+Early erythrocytes;Ery;Oetjen et al., 2018;red;#F72E3A;19;early_Ery;red;#F72E3A
+Early erythroid progenitors;Ery;Oetjen et al., 2018;red;#F72E3A;19;early_Ery;red;#F72E3A
+lateEry;Ery;van Galen et al., 2019;red;#F72E3A;19;late_Ery;darkred;#C72D37
+Late erythrocytes;Ery;Oetjen et al., 2018;red;#F72E3A;19;late_Ery;darkred;#C72D37
+Late erythroid progenitors;Ery;Oetjen et al., 2018;red;#F72E3A;19;early_Ery;red;#F72E3A
+Megakaryocytes;Megakaryocytes;Oetjen et al., 2018;beige;#C89B7A;13;Megakaryocytes;beige;#C89B7A
+NK;NK;van Galen et al., 2019;darkblue;#4F64EE;17;NK;darkblue;#4F64EE
+Natural killer cells;NK;Oetjen et al., 2018;darkblue;#4F64EE;17;NK;darkblue;#4F64EE
+Plasma;B;van Galen et al., 2019;green;#4FC384;9;Plasma;darkgreen;#317E54
+Plasma cells;B;Oetjen et al., 2018;green;#4FC384;9;Plasma;darkgreen;#317E54
+HSC;HSPC;van Galen et al., 2019;magenta;#D040F0;12;HSPC;magenta;#D040F0
+HSPCs;HSPC;Oetjen et al., 2018;magenta;#D040F0;12;HSPC;magenta;#D040F0
+Prog;HSPC;van Galen et al., 2019;magenta;#D040F0;12;HSPC;magenta;#D040F0
+GMP;HSPC;van Galen et al., 2019;magenta;#D040F0;12;HSPC;magenta;#D040F0
+HSC-like;HSPC;van Galen et al., 2019;magenta;#D040F0;12;HSPC;magenta;#D040F0
+Prog-like;HSPC;van Galen et al., 2019;magenta;#D040F0;12;HSPC;magenta;#D040F0
+GMP-like;HSPC;van Galen et al., 2019;magenta;#D040F0;12;HSPC;magenta;#D040F0
+CD4+ T;T;Lasry et al., 2022;blue;#4F92EE;12;CD4_T;lightblue;#4FCCEE
+CD8+ T;T;Lasry et al., 2022;blue;#4F92EE;12;CD8_T;blue;#4F92EE
+CD16+ monocyte;Mono;Lasry et al., 2022;darkorange;#F09040;13;Mono;darkorange;#F09040
+cDC2;DC;Lasry et al., 2022;brown;#854701;15;cDC;brown;#B95D10
+B;B;Lasry et al., 2022;green;#4FC384;12;B;green;#4FC384
+CD14+ monocyte;Mono;Lasry et al., 2022;darkorange;#F09040;13;Mono;darkorange;#F09040
+NK;NK;Lasry et al., 2022;darkblue;#4F64EE;17;NK;darkblue;#4F64EE
+cDC1;DC;Lasry et al., 2022;brown;#854701;15;cDC;brown;#B95D10
+HLA-II+ monocyte;Mono;Lasry et al., 2022;darkorange;#F09040;13;Mono;darkorange;#F09040
+HSC;HSPC;Lasry et al., 2022;magenta;#D040F0;12;HSPC;magenta;#D040F0
+MAIT;T;Lasry et al., 2022;blue;#4F92EE;12;MAIT;deepskyblue4;#00688B
+CD11c+;Mono;Lasry et al., 2022;darkorange;#F09040;13;Mono;darkorange;#F09040
+Pre-B;B;Lasry et al., 2022;green;#4FC384;12;B;green;#4FC384
+Pro-B;B;Lasry et al., 2022;green;#4FC384;12;B;green;#4FC384
+DC precursor;DC;Lasry et al., 2022;brown;#854701;15;pDC;darkbrown;#854701
+Granulocyte;Gran;Lasry et al., 2022;darkorange3;#CD6600;15;Gran;darkorange3;#CD6600
+MPP;HSPC;Lasry et al., 2022;magenta;#D040F0;12;HSPC;magenta;#D040F0
+pDC;DC;Lasry et al., 2022;brown;#854701;15;pDC;darkbrown;#854701
+MEP;HSPC;Lasry et al., 2022;magenta;#D040F0;12;HSPC;magenta;#D040F0
+gd T;T;Lasry et al., 2022;blue;#4F92EE;12;gd_T;deepskyblue;#00BFFF
+GMP;HSPC;Lasry et al., 2022;magenta;#D040F0;12;HSPC;magenta;#D040F0
+Plasmablast;B;Lasry et al., 2022;green;#4FC384;9;Plasma;darkgreen;#317E54
+Perivascular cell;PeriVasc;Lasry et al., 2022;gray;#BEBEBE;17;PeriVasc;gray;#BEBEBE
+LymP;LymP;Lasry et al., 2022;darkolivegreen;#556B2F;12;LymP;darkolivegreen;#556B2F
+Plasma cell;B;Lasry et al., 2022;green;#4FC384;9;Plasma;darkgreen;#317E54
+Ery;Ery;Lasry et al., 2022;red;#F72E3A;19;Ery;darkred;#C72D37
+Stem;Epithelial;Smillie et al., 2019;red;#CB4335;19;Stem and multipotent cells;orange;#c68642
+TA 1;Epithelial;Smillie et al., 2019;red;#CB4335;19;Stem and multipotent cells;orange;#c68642
+TA 2;Epithelial;Smillie et al., 2019;red;#CB4335;19;Stem and multipotent cells;orange;#c68642
+Cycling TA;Epithelial;Smillie et al., 2019;red;#CB4335;19;Stem and multipotent cells;orange;#c68642
+Immature Enterocytes 1;Epithelial;Smillie et al., 2019;red;#CB4335;19;Enterocytes;beige;#e0ac69
+Immature Enterocytes 2;Epithelial;Smillie et al., 2019;red;#CB4335;19;Enterocytes;beige;#e0ac69
+Enterocyte Progenitors;Epithelial;Smillie et al., 2019;red;#CB4335;19;Enterocytes;beige;#e0ac69
+Enterocytes;Epithelial;Smillie et al., 2019;red;#CB4335;19;Enterocytes;beige;#e0ac69
+M cells;Epithelial;Smillie et al., 2019;red;#CB4335;19;M cells;lightbeige;#f1c27d
+Best4+ Enterocytes;Epithelial;Smillie et al., 2019;red;#CB4335;19;Enterocytes;beige;#e0ac69
+Secretory TA;Epithelial;Smillie et al., 2019;red;#CB4335;19;Stem and multipotent cells;darkbeige;#c68642
+Immature Goblet;Epithelial;Smillie et al., 2019;red;#CB4335;19;Goblet;brown;#8d5523
+Goblet;Epithelial;Smillie et al., 2019;red;#CB4335;19;Goblet;brown;#8d5523
+Tuft;Epithelial;Smillie et al., 2019;red;#CB4335;19;Tuft;nude;#ffdbac
+Enteroendocrine;Epithelial;Smillie et al., 2019;red;#CB4335;19;Enterocytes;red;#CB4335
+WNT2B+ Fos-hi;Stromal;Smillie et al., 2019;violet;#8E44AD;15;Fibroblasts;violet;#d896ff
+WNT2B+ Fos-lo 1;Stromal;Smillie et al., 2019;violet;#8E44AD;15;Fibroblasts;violet;#d896ff
+WNT2B+ Fos-lo 2;Stromal;Smillie et al., 2019;violet;#8E44AD;15;Fibroblasts;violet;#d896ff
+RSPO3+;Stromal;Smillie et al., 2019;violet;#8E44AD;15;Fibroblasts;violet;#d896ff
+WNT5B+ 1;Stromal;Smillie et al., 2019;violet;#8E44AD;15;Fibroblasts;violet;#d896ff
+WNT5B+ 2;Stromal;Smillie et al., 2019;violet;#8E44AD;15;Fibroblasts;violet;#d896ff
+Inflammatory Fibroblasts;Stromal;Smillie et al., 2019;violet;#8E44AD;15;Fibroblasts;violet;#d896ff
+Myofibroblasts;Stromal;Smillie et al., 2019;violet;#8E44AD;15;Fibroblasts;violet;#d896ff
+Endothelial;Stromal;Smillie et al., 2019;violet;#8E44AD;15;Vascular;darkviolet;#be29ec
+Microvascular;Stromal;Smillie et al., 2019;violet;#8E44AD;15;Vascular;darkviolet;#be29ec
+Post-capillary Venules;Stromal;Smillie et al., 2019;violet;#8E44AD;15;Vascular;darkviolet;#be29ec
+Pericytes;Stromal;Smillie et al., 2019;violet;#8E44AD;15;Vascular;darkviolet;#be29ec
+Glia;Stromal;Smillie et al., 2019;violet;#8E44AD;14;Glia;darkviolet;#660066
+Macrophages;Immune;Smillie et al., 2019;blue;#4F92EE;13;Macrophages;greyblue;#b3cde0
+DC1;Immune;Smillie et al., 2019;blue;#4F92EE;13;Myeloid;darkgreyblue;#6497b1
+DC2;Immune;Smillie et al., 2019;blue;#4F92EE;13;Myeloid;darkgreyblue;#6497b1
+Inflammatory Monocytes;Immune;Smillie et al., 2019;blue;#4F92EE;13;Myeloid;darkgreyblue;#6497b1
+CD69+ Mast;Immune;Smillie et al., 2019;blue;#4F92EE;13;Mast;blue;#005b96
+CD69- Mast;Immune;Smillie et al., 2019;blue;#4F92EE;13;Mast;blue;#005b96
+Cycling Monocytes;Immune;Smillie et al., 2019;blue;#4F92EE;13;Myeloid;paleblue;#6497b1
+NKs;Immune;Smillie et al., 2019;blue;#4F92EE;12;Nks;turqoise;#43e8d8
+ILCs;Immune;Smillie et al., 2019;blue;#4F92EE;12;ILCs;lightturquoise;#b3ecec
+CD4+ Activated Fos-hi;Immune;Smillie et al., 2019;blue;#4F92EE;12;CD4;darkviolet;#011f4b
+CD4+ Activated Fos-lo;Immune;Smillie et al., 2019;blue;#4F92EE;12;CD4;darkviolet;#011f4b
+CD4+ Memory;Immune;Smillie et al., 2019;blue;#4F92EE;12;CD4;darkviolet;#011f4b
+Tregs;Immune;Smillie et al., 2019;blue;#4F92EE;12;Tregs;blue;#428bca
+CD4+ PD1+;Immune;Smillie et al., 2019;blue;#4F92EE;12;CD4;darkviolet;#011f4b
+CD8+ IELs;Immune;Smillie et al., 2019;blue;#4F92EE;12;CD8;lightblue;#71c7ec
+CD8+ LP;Immune;Smillie et al., 2019;blue;#4F92EE;12;CD8;lightblue;#71c7ec
+CD8+ IL17+;Immune;Smillie et al., 2019;blue;#4F92EE;12;CD8;lightblue;#71c7ec
+MT-hi;Immune;Smillie et al., 2019;blue;#4F92EE;12;CD4;darkviolet;#011f4b
+Cycling T;Immune;Smillie et al., 2019;blue;#4F92EE;12;Cycling T;darkblue;#107dac
+Plasma;Immune;Smillie et al., 2019;blue;#4F92EE;9;Plasma;blue;#189ad3
+Follicular;Immune;Smillie et al., 2019;blue;#4F92EE;14;B-cells;darkturquoise;#1ebbd7
+GC;Immune;Smillie et al., 2019;blue;#4F92EE;14;B-cells;darkturquoise;#1ebbd7
+Cycling B;Immune;Smillie et al., 2019;blue;#4F92EE;14;B-cells;darkturquoise;#1ebbd7

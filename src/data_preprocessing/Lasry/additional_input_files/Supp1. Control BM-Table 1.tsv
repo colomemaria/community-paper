@@ -1,0 +1,12 @@
+Sample	Sex	Age	Sequencing	
+1	F	26	CITE-Seq	
+2	M	39	CITE-Seq	
+3	F	50	CITE-Seq	
+4	M	20	CITE-Seq	
+5	M	47	CITE-Seq	
+0004	M	53	CITE-Seq +scTCR-seq	
+0005	M	22	CITE-Seq + scTCR-seq	
+0058	M	20	CITE-Seq	
+0082	M	19	CITE-Seq + scTCR-seq	
+4003	M	42	CITE-Seq + scTCR-seq	
+0182	M	51	scTCR-seq	
