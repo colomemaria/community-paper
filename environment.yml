@@ -33,3 +33,7 @@ dependencies:
 - numba
 - bioconductor-omnipathr
 - bioconductor-mygene
+- bioconda::r-seurat
+- pip
+- pip:
+  - scgen

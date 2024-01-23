@@ -33,7 +33,7 @@ create-env: ## create conda environment
 	    conda install -n base -c conda-forge mamba && \
 	    source ${ACTIVATE} base && \
 	    mamba env create -f environment.yml && \
-	    source ${ACTIVATE} ${CONDA_ENV} && R -e 'devtools::install_github("SoloveyMaria/community", upgrade = "always"); q()'; \
+	    source ${ACTIVATE} ${CONDA_ENV} && R -e 'devtools::install_github("SoloveyMaria/community", upgrade = "always"); devtools::install_github("satijalab/seurat@v4.3.0"); q()'; \
 	fi
 .PHONY: create-env
 
