@@ -1,39 +1,37 @@
-name: community_paper
+name: community_paper4
 channels:
-- conda-forge
-- bioconda
-- r
-- defaults
-- anaconda
-- numba
+  - conda-forge
+  - bioconda
+  - r
+  - defaults
+  - anaconda
+  - numba
 dependencies:
-- lxml
-- notebook
-- nb_conda_kernels
-- r-essentials
-- r-irkernel
-- r-devtools
-- r-ggplot2
-- r-gridextra
-- r-dendsort
-- bioconductor-complexheatmap
-- r-igraph
-- r-circlize
-- r-r.utils
-- r-data.table
-- r-matrix
-- bioconductor-singlecellexperiment
-- bioconductor-scran
-- bioconductor-scater
-- numpy
-- pandas==1.5.3
-- anndata
-- scvi-tools
-- scanpy
-- numba
-- bioconductor-omnipathr
-- bioconductor-mygene
-- bioconda::r-seurat
-- pip
-- pip:
-  - scgen
+  - lxml
+  - notebook
+  - nb_conda_kernels
+  - conda-forge::r-base==4.1.2
+  - r-essentials
+  - r-irkernel
+  - r-devtools
+  - r-ggplot2
+  - r-gridextra
+  - r-dendsort
+  - bioconductor-complexheatmap
+  - r-igraph
+  - r-circlize
+  - r-r.utils
+  - r-data.table
+  - r-matrix
+  - bioconductor-singlecellexperiment
+  - bioconductor-scran
+  - bioconductor-scater
+  - numpy
+  - pandas==1.5.3
+  - anndata
+  - scvi-tools
+  - scanpy
+  - numba
+  - bioconductor-omnipathr
+  - bioconductor-mygene
+

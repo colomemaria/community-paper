@@ -1,6 +1,6 @@
 #conda activate cpdb2
 # Set the directory path to the directory containing the DEG samples
-samples_dir=../../../../../results/method_comparison/compare_algorithms/Lasry/CPDB/samples_DEGs/
+samples_dir=outs/samples_DEGs/
 
 # Get a list of unique variable names (i.e., sample names) by extracting the first part of the file names in the directory and removing duplicates
 my_vars=$(ls "$samples_dir" | cut -d_ -f1 | uniq)
