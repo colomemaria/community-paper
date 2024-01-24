@@ -55,4 +55,4 @@ optimization_results =
            niter = 8, ncores = 8, nstart = 160, 
            additional_arguments = additional_arguments_topology_correction)
 
-saveRDS(optimization_results, "../../../../../results/method_comparison/build_customDB/NicheNet/Optimization_results.rds")
+saveRDS(optimization_results, "NNET_Custom/Optimization_results.rds")

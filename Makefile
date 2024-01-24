@@ -1,5 +1,5 @@
 # Settings
-CONDA_ENV=community_paper4
+CONDA_ENV=community_paper_latest
 SHELL=bash
 MINICONDA_URL=https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
@@ -32,8 +32,8 @@ create-env: ## create conda environment
 	else \
 	    conda install -n base -c conda-forge mamba && \
 	    source ${ACTIVATE} base && \
-	    mamba env create -f environment.yml && \
-	    source ${ACTIVATE} ${CONDA_ENV} && R -e 'devtools::install_github("SoloveyMaria/community", upgrade = "always"); devtools::install_github("satijalab/seurat-object@v4.1.3"); devtools::install_github("satijalab/seurat@v4.3.0"); q()'; \
+	    mamba env create -f environment.yml && ./NicheNet_install.sh && \
+	    source ${ACTIVATE} ${CONDA_ENV} && R -e 'devtools::install_github("saezlab/OmnipathR"); devtools::install_github("SoloveyMaria/community", upgrade = "always"); devtools::install_github("satijalab/seurat-object@v4.1.3"); devtools::install_github("satijalab/seurat@v4.3.0"); q()'; \
 	fi
 .PHONY: create-env
 

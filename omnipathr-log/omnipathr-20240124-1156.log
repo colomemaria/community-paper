@@ -1,0 +1,40 @@
+[2024-01-24 11:56:31] [INFO]    [OmnipathR] Welcome to OmnipathR!
+[2024-01-24 11:56:31] [TRACE]   [OmnipathR] Reading JSON from `/home/mcelik/.cache/OmnipathR/cache.json` (encoding: UTF-8).
+[2024-01-24 11:56:31] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-24 11:56:31] [INFO]    [OmnipathR] Initialized cache: `/home/mcelik/.cache/OmnipathR`.
+[2024-01-24 11:56:31] [TRACE]   [OmnipathR] Reading JSON from `/work/project/ladcol_011/conda_path/miniconda3/envs/NicheNet/lib/R/library/OmnipathR/db/db_def.json` (encoding: UTF-8).
+[2024-01-24 11:56:31] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-24 11:56:31] [TRACE]   [OmnipathR] Reading JSON from `/work/project/ladcol_011/conda_path/miniconda3/envs/NicheNet/lib/R/library/OmnipathR/internal/magic_bytes.json` (encoding: UTF-8).
+[2024-01-24 11:56:31] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-24 11:56:31] [TRACE]   [OmnipathR] Reading JSON from `/work/project/ladcol_011/conda_path/miniconda3/envs/NicheNet/lib/R/library/OmnipathR/internal/urls.json` (encoding: UTF-8).
+[2024-01-24 11:56:31] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-24 11:56:31] [TRACE]   [OmnipathR] Reading JSON from `/work/project/ladcol_011/conda_path/miniconda3/envs/NicheNet/lib/R/library/OmnipathR/internal/id_types.json` (encoding: UTF-8).
+[2024-01-24 11:56:31] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-24 11:57:18] [INFO]    [OmnipathR] Cache record does not exist: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=omnipath,pathwayextra,kinaseextra&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-01-24 11:57:18] [INFO]    [OmnipathR] Retrieving URL: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=omnipath,pathwayextra,kinaseextra&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-01-24 11:57:18] [TRACE]   [OmnipathR] Attempt 1/3: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=omnipath,pathwayextra,kinaseextra&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-01-24 11:57:21] [TRACE]   [OmnipathR] Reading JSON from `/home/mcelik/.cache/OmnipathR/cache.json` (encoding: UTF-8).
+[2024-01-24 11:57:21] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-24 11:57:22] [TRACE]   [OmnipathR] Reading JSON from `/home/mcelik/.cache/OmnipathR/cache.json` (encoding: UTF-8).
+[2024-01-24 11:57:22] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-24 11:57:22] [INFO]    [OmnipathR] Cache item `ad856aa51db6ba286841a8aa3d1ee37d248ea73f` version 1: status changed from `unknown` to `started`.
+[2024-01-24 11:57:22] [TRACE]   [OmnipathR] Exporting object to RDS: `/home/mcelik/.cache/OmnipathR/ad856aa51db6ba286841a8aa3d1ee37d248ea73f-1.rds`.
+[2024-01-24 11:57:23] [TRACE]   [OmnipathR] Exported RDS to `/home/mcelik/.cache/OmnipathR/ad856aa51db6ba286841a8aa3d1ee37d248ea73f-1.rds`.
+[2024-01-24 11:57:23] [INFO]    [OmnipathR] Download ready [key=ad856aa51db6ba286841a8aa3d1ee37d248ea73f, version=1]
+[2024-01-24 11:57:23] [TRACE]   [OmnipathR] Reading JSON from `/home/mcelik/.cache/OmnipathR/cache.json` (encoding: UTF-8).
+[2024-01-24 11:57:23] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-24 11:57:23] [INFO]    [OmnipathR] Cache item `ad856aa51db6ba286841a8aa3d1ee37d248ea73f` version 1: status changed from `started` to `ready`.
+[2024-01-24 11:57:40] [INFO]    [OmnipathR] Cache record does not exist: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-01-24 11:57:40] [INFO]    [OmnipathR] Retrieving URL: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-01-24 11:57:40] [TRACE]   [OmnipathR] Attempt 1/3: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-01-24 11:57:41] [TRACE]   [OmnipathR] Reading JSON from `/home/mcelik/.cache/OmnipathR/cache.json` (encoding: UTF-8).
+[2024-01-24 11:57:41] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-24 11:57:41] [TRACE]   [OmnipathR] Reading JSON from `/home/mcelik/.cache/OmnipathR/cache.json` (encoding: UTF-8).
+[2024-01-24 11:57:41] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-24 11:57:41] [INFO]    [OmnipathR] Cache item `2ca0b32a5eda2799cb44960b1f8b611cb1b73de5` version 1: status changed from `unknown` to `started`.
+[2024-01-24 11:57:41] [TRACE]   [OmnipathR] Exporting object to RDS: `/home/mcelik/.cache/OmnipathR/2ca0b32a5eda2799cb44960b1f8b611cb1b73de5-1.rds`.
+[2024-01-24 11:57:42] [TRACE]   [OmnipathR] Exported RDS to `/home/mcelik/.cache/OmnipathR/2ca0b32a5eda2799cb44960b1f8b611cb1b73de5-1.rds`.
+[2024-01-24 11:57:42] [INFO]    [OmnipathR] Download ready [key=2ca0b32a5eda2799cb44960b1f8b611cb1b73de5, version=1]
+[2024-01-24 11:57:42] [TRACE]   [OmnipathR] Reading JSON from `/home/mcelik/.cache/OmnipathR/cache.json` (encoding: UTF-8).
+[2024-01-24 11:57:42] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-24 11:57:42] [INFO]    [OmnipathR] Cache item `2ca0b32a5eda2799cb44960b1f8b611cb1b73de5` version 1: status changed from `started` to `ready`.

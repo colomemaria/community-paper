@@ -1,0 +1,31 @@
+channels:
+  - conda-forge
+  - bioconda
+  - r
+  - defaults
+  - anaconda
+  - numba
+dependencies:
+  - r-base
+  - r-seurat
+  - bioconductor-singlecellexperiment
+  - r-dplyr
+  - r-ggplot2
+  - r-dplyr
+  - bioconductor-limma
+  - r-hmisc
+  - r-randomforest
+  - r-mlrmbo
+  - r-ggpubr
+  - bioconductor-complexheatmap
+  - r-caret
+  - r-ggforce
+  - r-rspectra
+  - r-rcpphnsw
+  - r-devtools
+  - r-tidyverse
+  - bioconductor-mygene
+  - r-recommended
+  - r-irkernel
+  - jupyter
+  - bioconda::mygene

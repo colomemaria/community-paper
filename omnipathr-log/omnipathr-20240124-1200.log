@@ -1,0 +1,52 @@
+[2024-01-24 12:00:29] [INFO]    [OmnipathR] Welcome to OmnipathR!
+[2024-01-24 12:00:29] [TRACE]   [OmnipathR] Reading JSON from `/home/mcelik/.cache/OmnipathR/cache.json` (encoding: UTF-8).
+[2024-01-24 12:00:29] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-24 12:00:29] [INFO]    [OmnipathR] Initialized cache: `/home/mcelik/.cache/OmnipathR`.
+[2024-01-24 12:00:29] [TRACE]   [OmnipathR] Reading JSON from `/work/project/ladcol_011/conda_path/miniconda3/envs/NicheNet/lib/R/library/OmnipathR/db/db_def.json` (encoding: UTF-8).
+[2024-01-24 12:00:29] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-24 12:00:29] [TRACE]   [OmnipathR] Reading JSON from `/work/project/ladcol_011/conda_path/miniconda3/envs/NicheNet/lib/R/library/OmnipathR/internal/magic_bytes.json` (encoding: UTF-8).
+[2024-01-24 12:00:29] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-24 12:00:29] [TRACE]   [OmnipathR] Reading JSON from `/work/project/ladcol_011/conda_path/miniconda3/envs/NicheNet/lib/R/library/OmnipathR/internal/urls.json` (encoding: UTF-8).
+[2024-01-24 12:00:29] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-24 12:00:29] [TRACE]   [OmnipathR] Reading JSON from `/work/project/ladcol_011/conda_path/miniconda3/envs/NicheNet/lib/R/library/OmnipathR/internal/id_types.json` (encoding: UTF-8).
+[2024-01-24 12:00:29] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-24 12:01:07] [INFO]    [OmnipathR] Loading database `Ensembl and OMA organism names`.
+[2024-01-24 12:01:07] [TRACE]   [OmnipathR] Reading JSON from `/home/mcelik/.cache/OmnipathR/cache.json` (encoding: UTF-8).
+[2024-01-24 12:01:07] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-24 12:01:07] [INFO]    [OmnipathR] Looking up in cache `https://www.ensembl.org/info/about/species.html`: key=7332486db7400730697234bad76ca0c8e4d00799, no version available.
+[2024-01-24 12:01:07] [TRACE]   [OmnipathR] Reading JSON from `/home/mcelik/.cache/OmnipathR/cache.json` (encoding: UTF-8).
+[2024-01-24 12:01:07] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-24 12:01:07] [INFO]    [OmnipathR] Created new version for cache record 7332486db7400730697234bad76ca0c8e4d00799: version 1.
+[2024-01-24 12:01:07] [TRACE]   [OmnipathR] Cache file path: /home/mcelik/.cache/OmnipathR/7332486db7400730697234bad76ca0c8e4d00799-1.html
+[2024-01-24 12:01:07] [INFO]    [OmnipathR] Retrieving URL: `https://www.ensembl.org/info/about/species.html`
+[2024-01-24 12:01:07] [TRACE]   [OmnipathR] Attempt 1/3: `https://www.ensembl.org/info/about/species.html`
+[2024-01-24 12:01:07] [TRACE]   [OmnipathR] HTTP 200
+[2024-01-24 12:01:07] [INFO]    [OmnipathR] Download ready [key=7332486db7400730697234bad76ca0c8e4d00799, version=1]
+[2024-01-24 12:01:07] [TRACE]   [OmnipathR] Reading JSON from `/home/mcelik/.cache/OmnipathR/cache.json` (encoding: UTF-8).
+[2024-01-24 12:01:07] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-24 12:01:07] [INFO]    [OmnipathR] Cache item `7332486db7400730697234bad76ca0c8e4d00799` version 1: status changed from `unknown` to `ready`.
+[2024-01-24 12:01:07] [TRACE]   [OmnipathR] Looking up in cache: `https://omabrowser.org/All/oma-species.txt`.
+[2024-01-24 12:01:07] [INFO]    [OmnipathR] Cache record does not exist: `https://omabrowser.org/All/oma-species.txt`
+[2024-01-24 12:01:07] [TRACE]   [OmnipathR] Could not find in cache, initiating download: `https://omabrowser.org/All/oma-species.txt`.
+[2024-01-24 12:01:07] [TRACE]   [OmnipathR] Reading JSON from `/home/mcelik/.cache/OmnipathR/cache.json` (encoding: UTF-8).
+[2024-01-24 12:01:07] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-24 12:01:07] [TRACE]   [OmnipathR] Reading JSON from `/home/mcelik/.cache/OmnipathR/cache.json` (encoding: UTF-8).
+[2024-01-24 12:01:07] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-24 12:01:07] [INFO]    [OmnipathR] Cache item `30e690cbb55dfc63b5903ab337f34ffc2f4be397` version 1: status changed from `unknown` to `started`.
+[2024-01-24 12:01:07] [TRACE]   [OmnipathR] Exporting object to RDS: `/home/mcelik/.cache/OmnipathR/30e690cbb55dfc63b5903ab337f34ffc2f4be397-1.rds`.
+[2024-01-24 12:01:07] [INFO]    [OmnipathR] Retrieving URL: `https://omabrowser.org/All/oma-species.txt`
+[2024-01-24 12:01:07] [TRACE]   [OmnipathR] Attempt 1/3: `https://omabrowser.org/All/oma-species.txt`
+[2024-01-24 12:01:08] [TRACE]   [OmnipathR] Exported RDS to `/home/mcelik/.cache/OmnipathR/30e690cbb55dfc63b5903ab337f34ffc2f4be397-1.rds`.
+[2024-01-24 12:01:08] [INFO]    [OmnipathR] Download ready [key=30e690cbb55dfc63b5903ab337f34ffc2f4be397, version=1]
+[2024-01-24 12:01:08] [TRACE]   [OmnipathR] Reading JSON from `/home/mcelik/.cache/OmnipathR/cache.json` (encoding: UTF-8).
+[2024-01-24 12:01:08] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-24 12:01:08] [INFO]    [OmnipathR] Cache item `30e690cbb55dfc63b5903ab337f34ffc2f4be397` version 1: status changed from `started` to `ready`.
+[2024-01-24 12:01:08] [INFO]    [OmnipathR] Loaded database `Ensembl and OMA organism names`.
+[2024-01-24 12:01:08] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-01-24 12:01:08] [TRACE]   [OmnipathR] Loaded data from RDS `/home/mcelik/.cache/OmnipathR/2ca0b32a5eda2799cb44960b1f8b611cb1b73de5-1.rds`.
+[2024-01-24 12:01:08] [INFO]    [OmnipathR] Loaded from cache: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=omnipath,pathwayextra,kinaseextra,ligrecextra&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-01-24 12:01:14] [SUCCESS] [OmnipathR] Loaded 134282 interactions from cache.
+[2024-01-24 12:01:42] [TRACE]   [OmnipathR] Looking up in cache: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=omnipath,pathwayextra,kinaseextra&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-01-24 12:01:42] [TRACE]   [OmnipathR] Loaded data from RDS `/home/mcelik/.cache/OmnipathR/ad856aa51db6ba286841a8aa3d1ee37d248ea73f-1.rds`.
+[2024-01-24 12:01:42] [INFO]    [OmnipathR] Loaded from cache: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=omnipath,pathwayextra,kinaseextra&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2024-01-24 12:01:49] [SUCCESS] [OmnipathR] Loaded 131885 interactions from cache.
