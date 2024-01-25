@@ -7,7 +7,6 @@ channels:
   - numba
 dependencies:
   - r-base
-  - r-seurat
   - bioconductor-singlecellexperiment
   - r-dplyr
   - r-ggplot2

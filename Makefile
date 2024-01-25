@@ -32,8 +32,9 @@ create-env: ## create conda environment
 	else \
 	    conda install -n base -c conda-forge mamba && \
 	    source ${ACTIVATE} base && \
-	    mamba env create -f environment.yml && ./NicheNet_install.sh && \
-	    source ${ACTIVATE} ${CONDA_ENV} && R -e 'devtools::install_github("saezlab/OmnipathR"); devtools::install_github("SoloveyMaria/community", upgrade = "always"); devtools::install_github("satijalab/seurat-object@v4.1.3"); devtools::install_github("satijalab/seurat@v4.3.0"); q()'; \
+	    mamba env create -f environment.yml && \
+	    source ${ACTIVATE} ${CONDA_ENV} && R -e 'options(repos = c(CRAN = "https://cloud.r-project.org/")); install.packages("BiocManager"); BiocManager::install("metaboliteIDmapping"); q()' && R -e 'devtools::install_github("saezlab/OmnipathR"); devtools::install_github("SoloveyMaria/community", upgrade = "always"); devtools::install_github("satijalab/seurat-object@v4.1.3"); devtools::install_github("satijalab/seurat@v4.3.0"); q()'; \
+	    ./NicheNet_install.sh \
 	fi
 .PHONY: create-env
 
