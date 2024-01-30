@@ -35,5 +35,6 @@ dependencies:
   - bioconda::bioconductor-mygene
   - r-eulerr
   - r-ggalluvial
+  - bioconda::mygene
   
 

@@ -42,7 +42,7 @@ create-env: ## create conda environment
 	    echo "Activating new environment and installing R packages"; \
 	    source ${ACTIVATE} ${CONDA_ENV} && R -e 'options(repos = c(CRAN = "https://cloud.r-project.org/")); install.packages("BiocManager"); BiocManager::install("metaboliteIDmapping"); q()' && \
 	    echo "Installing OmnipathR from GitHub"; \
-	    R -e 'install.packages("prettyunits"); devtools::install_github("saezlab/OmnipathR@v3.7.0"); q()' && \
+	    R -e 'options(repos = c(CRAN = "https://cloud.r-project.org/")); install.packages("prettyunits"); devtools::install_github("saezlab/OmnipathR@v3.7.0"); q()' && \
 	    echo "Installing community package from GitHub"; \
 	    R -e 'devtools::install_github("SoloveyMaria/community", upgrade = "always"); q()' && \
 	    echo "Installing Seurat object and Seurat from GitHub"; \

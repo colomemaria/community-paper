@@ -6,11 +6,13 @@ channels:
   - anaconda
   - numba
 dependencies:
-  - r-base
+  - conda-forge::r-base==4.1.2
+  - r-essentials
+  - r-gridextra
+  - r-dendsort
   - bioconductor-singlecellexperiment
   - r-dplyr
   - r-ggplot2
-  - r-dplyr
   - bioconductor-limma
   - r-hmisc
   - r-randomforest
@@ -28,3 +30,12 @@ dependencies:
   - r-irkernel
   - jupyter
   - bioconda::mygene
+  - r-igraph
+  - r-circlize
+  - r-r.utils
+  - r-eulerr
+  - r-ggalluvial
+  - r-gridextra
+  - r-dendsort
+  - bioconductor-complexheatmap
+  - r-circlize
