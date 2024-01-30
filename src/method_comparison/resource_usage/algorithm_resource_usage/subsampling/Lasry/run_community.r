@@ -6,15 +6,8 @@
 library(community)
 library(ggplot2)
 library(gridExtra)
-library(grid)
-library(ComplexHeatmap)
-library(dendsort)
-library(igraph)
-require(circlize)
 library(R.utils)
 library(data.table) #to read gz file
-library(Seurat)
-library(nichenetr)
 
 getwd()
 args <- commandArgs(trailingOnly = TRUE)
@@ -34,7 +27,7 @@ print(str(LR_database))
 
 # # load counts
 print("load counts")
-counts <- fread(paste0(input_dir,"counts_corr.csv.gz"), header = TRUE)
+counts <- fread(paste0(input_dir,"counts_norm.csv.gz"), header = TRUE)
 counts <- as.data.frame(counts)
 rownames(counts) <- counts$V1
 counts <- counts[,-1]
@@ -42,7 +35,7 @@ print(str(counts))
 
 # load cell annotation
 print("load cell annotation")
-anno_cells <- read.table(paste0(input_dir,"anno_cells_corr.txt")
+anno_cells <- read.table(paste0(input_dir,"anno_cells_norm.txt")
                          ,sep = "\t"
                          ,row.names = 1
                          ,header = TRUE
@@ -51,7 +44,7 @@ print(str(anno_cells))
 
 # load sample annotation
 print("load sample annotation")
-anno_samples <- read.table(paste0(input_dir,"anno_samples_corr.txt")
+anno_samples <- read.table(paste0(input_dir,"anno_samples_norm.txt")
                            ,sep = "\t"
                            ,row.names = 1
                            ,header = TRUE

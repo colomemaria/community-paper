@@ -15,8 +15,8 @@ R -e 'IRkernel::installspec(); q()';
 
 conda deactivate
 
-mamba create --name cellphonedb_final python=3.8 r-base rpy2 -y
-source $CONDA_PATH/bin/activate cellphonedb_final
+mamba create --name cellphonedb python=3.8 r-base rpy2 -y
+source $CONDA_PATH/bin/activate cellphonedb
 pip install cellphonedb==3.1.0
 
 conda deactivate

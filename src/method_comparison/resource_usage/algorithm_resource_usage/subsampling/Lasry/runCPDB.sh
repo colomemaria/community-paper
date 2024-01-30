@@ -12,7 +12,7 @@ samples_dir=$1
 my_vars=$(ls "$samples_dir" | cut -d_ -f1 | uniq)
 
 # Set the path to the custom database file
-custom_db=../../../../../results/method_comparison/build_customDB/CPDB/full.db
+custom_db=../../../../compare_algorithms/prepare_data/run_CellPhoneDB/build_customDB/CPDB_Custom/CPDB_Custom.db
 
 # Loop over each sample variable name
 for sample in $my_vars;

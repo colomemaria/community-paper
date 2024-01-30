@@ -17,7 +17,7 @@ input_dir <- args[1]
 
 #input_dir <- "../../../../../results/method_comparison/resoure_usage/Lasry/3_3/"
 
-db_dir <- "../../../../../results/method_comparison/build_customDB/NicheNet/"
+db_dir <- "../../../../compare_algorithms/prepare_data/run_NicheNet/build_customDB/NNET_Custom/"
 
 
 
@@ -31,7 +31,7 @@ db_dir <- "../../../../../results/method_comparison/build_customDB/NicheNet/"
 #                      )
 # # load counts
 
-counts <- fread(paste0(input_dir,"counts_corr.csv.gz"), header = TRUE,check.names=FALSE)
+counts <- fread(paste0(input_dir,"counts_norm.csv.gz"), header = TRUE,check.names=FALSE)
 counts <- as.data.frame(counts)
 rownames(counts) <- counts$V1
 counts <- counts[,-1]
@@ -40,7 +40,7 @@ counts <- counts[,-1]
 
 # load cell annotation
 print("load cell annotation")
-anno_cells <- read.table(paste0(input_dir,"anno_cells_corr.txt")
+anno_cells <- read.table(paste0(input_dir,"anno_cells_norm.txt")
                          ,sep = "\t"
                          ,row.names = 1
                          ,header = TRUE
@@ -49,7 +49,7 @@ anno_cells <- read.table(paste0(input_dir,"anno_cells_corr.txt")
 
 # load cell annotation
 print("load cell annotation")
-anno_samples <- read.table(paste0(input_dir,"anno_samples_corr.txt")
+anno_samples <- read.table(paste0(input_dir,"anno_samples_norm.txt")
                          ,sep = "\t"
                          #,row.names = 2
                          ,header = TRUE

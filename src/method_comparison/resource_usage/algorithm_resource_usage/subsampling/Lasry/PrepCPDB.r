@@ -35,7 +35,7 @@ print(output_dir)
 #                      )
 # # load counts
 
-counts <- fread(paste0(input_dir,"counts_corr.csv.gz"), header = TRUE,check.names=FALSE)
+counts <- fread(paste0(input_dir,"counts_norm.csv.gz"), header = TRUE,check.names=FALSE)
 counts <- as.data.frame(counts)
 rownames(counts) <- counts$gene_symbol
 counts <- counts[,-1]
@@ -44,7 +44,7 @@ counts <- counts[,-1]
 
 # load cell annotation
 print("load cell annotation")
-anno_cells <- read.table(paste0(input_dir,"anno_cells_corr.txt")
+anno_cells <- read.table(paste0(input_dir,"anno_cells_norm.txt")
                          ,sep = "\t"
                          ,row.names = 1
                          ,header = TRUE
@@ -109,4 +109,4 @@ for (sample in unique(anno_cells$sample_ID)) {
 
 output_dir <- paste0(output_dir, "/samples_DEGs/")
 
-system(paste('conda run -n cpdb2 ./runCPDB.sh', output_dir))
+system(paste('conda run -n cellphonedb ./runCPDB.sh', output_dir))

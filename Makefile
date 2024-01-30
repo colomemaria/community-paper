@@ -27,7 +27,7 @@ install-conda: ## install Miniconda
 
 
 create-env: ## create conda environment
-	if ${CONDA} env list | grep ${CONDA_ENV}; then \
+	if ${CONDA} env list | grep -w ${CONDA_ENV}; then \
 	   echo "Updating existing conda environment"; \
 	   mamba env update -n ${CONDA_ENV} -f environment.yml; \
 	   echo "Activating environment and installing community package from GitHub"; \
@@ -40,13 +40,13 @@ create-env: ## create conda environment
 	    echo "Creating new conda environment from environment.yml"; \
 	    mamba env create -f environment.yml && \
 	    echo "Activating new environment and installing R packages"; \
-	    source ${ACTIVATE} ${CONDA_ENV} && R -e 'options(repos = c(CRAN = "https://cloud.r-project.org/")); install.packages("BiocManager"); BiocManager::install("metaboliteIDmapping"); q()'; \
+	    source ${ACTIVATE} ${CONDA_ENV} && R -e 'options(repos = c(CRAN = "https://cloud.r-project.org/")); install.packages("BiocManager"); BiocManager::install("metaboliteIDmapping"); q()' && \
 	    echo "Installing OmnipathR from GitHub"; \
-	    R -e 'devtools::install_github("saezlab/OmnipathR@v3.7.0"); q()'; \
+	    R -e 'install.packages("prettyunits"); devtools::install_github("saezlab/OmnipathR@v3.7.0"); q()' && \
 	    echo "Installing community package from GitHub"; \
-	    R -e 'devtools::install_github("SoloveyMaria/community", upgrade = "always"); q()'; \
+	    R -e 'devtools::install_github("SoloveyMaria/community", upgrade = "always"); q()' && \
 	    echo "Installing Seurat object and Seurat from GitHub"; \
-	    R -e 'devtools::install_github("satijalab/seurat-object@v4.1.3"); devtools::install_github("satijalab/seurat@v4.3.0"); q()'; \
+	    R -e 'devtools::install_github("satijalab/seurat-object@v4.1.3"); devtools::install_github("satijalab/seurat@v4.3.0"); q()'&& \
 	    echo "Deactivating conda environment"; \
 	    conda deactivate && \
 	    echo "Running NicheNet install script"; \

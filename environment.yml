@@ -1,4 +1,4 @@
-name: community_paper_final
+name: community_paper
 channels:
   - conda-forge
   - bioconda
@@ -32,5 +32,8 @@ dependencies:
   - scvi-tools
   - scanpy
   - numba
-  - bioconductor-mygene
+  - bioconda::bioconductor-mygene
+  - r-eulerr
+  - r-ggalluvial
+  
 
