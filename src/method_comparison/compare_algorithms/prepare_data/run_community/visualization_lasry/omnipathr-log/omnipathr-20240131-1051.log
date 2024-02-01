@@ -1,0 +1,12 @@
+[2024-01-31 10:51:45] [INFO]    [OmnipathR] Welcome to OmnipathR!
+[2024-01-31 10:51:45] [TRACE]   [OmnipathR] Reading JSON from `/home/mcelik/.cache/OmnipathR/cache.json` (encoding: UTF-8).
+[2024-01-31 10:51:45] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-31 10:51:45] [INFO]    [OmnipathR] Initialized cache: `/home/mcelik/.cache/OmnipathR`.
+[2024-01-31 10:51:45] [TRACE]   [OmnipathR] Reading JSON from `/work/project/ladcol_011/conda_path/miniconda3/envs/community_paper/lib/R/library/OmnipathR/db/db_def.json` (encoding: UTF-8).
+[2024-01-31 10:51:45] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-31 10:51:45] [TRACE]   [OmnipathR] Reading JSON from `/work/project/ladcol_011/conda_path/miniconda3/envs/community_paper/lib/R/library/OmnipathR/internal/magic_bytes.json` (encoding: UTF-8).
+[2024-01-31 10:51:45] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-31 10:51:45] [TRACE]   [OmnipathR] Reading JSON from `/work/project/ladcol_011/conda_path/miniconda3/envs/community_paper/lib/R/library/OmnipathR/internal/urls.json` (encoding: UTF-8).
+[2024-01-31 10:51:45] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2024-01-31 10:51:45] [TRACE]   [OmnipathR] Reading JSON from `/work/project/ladcol_011/conda_path/miniconda3/envs/community_paper/lib/R/library/OmnipathR/internal/id_types.json` (encoding: UTF-8).
+[2024-01-31 10:51:45] [TRACE]   [OmnipathR] JSON validation successful: TRUE
