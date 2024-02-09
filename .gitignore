@@ -1,3 +1,4 @@
+omnipathr-log/
 !data/
 data/*
 results/method_comparison/compare_algorithms/Lasry/CPDB/samples_DEGs/**
