@@ -57,18 +57,18 @@ download_raw_data() {
 	
     elif [ "$dataset" == "Hourigan" ]; then
         # Create a directory to download
-	wget ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE116nnn/GSE116256/suppl/GSE116256_RAW.tar -P data/vanGalen_Hourigan/raw_data/
+	wget ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE116nnn/GSE116256/suppl/GSE116256_RAW.tar -P data/vanGalen_Oetjen/raw_data/
 
-	wget ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE120nnn/GSE120221/suppl/GSE120221_RAW.tar -P data/vanGalen_Hourigan/raw_data/
+	wget ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE120nnn/GSE120221/suppl/GSE120221_RAW.tar -P data/vanGalen_Oetjen/raw_data/
 
-	mkdir -p data/vanGalen_Hourigan/raw_data/GSE116256_RAW
-	mkdir -p data/vanGalen_Hourigan/raw_data/GSE120221_RAW
+	mkdir -p data/vanGalen_Oetjen/raw_data/GSE116256_RAW
+	mkdir -p data/vanGalen_Oetjen/raw_data/GSE120221_RAW
 
-	tar -xvf data/vanGalen_Hourigan/raw_data/GSE116256_RAW.tar --directory data/vanGalen_Hourigan/raw_data/GSE116256_RAW
-	tar -xvf data/vanGalen_Hourigan/raw_data/GSE120221_RAW.tar --directory data/vanGalen_Hourigan/raw_data/GSE120221_RAW
+	tar -xvf data/vanGalen_Oetjen/raw_data/GSE116256_RAW.tar --directory data/vanGalen_Oetjen/raw_data/GSE116256_RAW
+	tar -xvf data/vanGalen_Oetjen/raw_data/GSE120221_RAW.tar --directory data/vanGalen_Oetjen/raw_data/GSE120221_RAW
 
-	gunzip -d data/vanGalen_Hourigan/raw_data/GSE116256_RAW/*
-	gunzip -d data/vanGalen_Hourigan/raw_data/GSE120221_RAW/*
+	gunzip -d data/vanGalen_Oetjen/raw_data/GSE116256_RAW/*
+	gunzip -d data/vanGalen_Oetjen/raw_data/GSE120221_RAW/*
 	
 	rm *.tar
 	rm placeholder.yml
@@ -83,10 +83,10 @@ download_raw_data() {
 # Check for the argument and call the function accordingly
 if [ "$1" == "--lasry" ]; then
     download_raw_data "Lasry"
-elif [ "$1" == "--hourigan" ]; then
+elif [ "$1" == "--vanGalen_Oetjen" ]; then
     download_raw_data "Hourigan"
 else
-    echo "Usage: $0 [--lasry | --hourigan]"
+    echo "Usage: $0 [--lasry | --vanGalen_Oetjen]"
     exit 1
 fi
 
