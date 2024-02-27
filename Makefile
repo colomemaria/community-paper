@@ -56,7 +56,7 @@ create-env: ## create conda environment
 
 
 download-data: ## download preprocessed data
-	./download_raw_data.sh --lasry && ./download_raw_data.sh --hourigan
+	./download_raw_data.sh --lasry && ./download_raw_data.sh --vanGalen_Oetjen
 .PHONY: download-data
 
 
