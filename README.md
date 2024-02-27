@@ -5,15 +5,14 @@ This repository is dedicated to the analysis of single-cell RNAseq datasets, fac
 1. **Pre-Processing of Datasets:** Jupyter Notebooks are provided to prepare the datasets for subsequent analysis using the `community` tool. The pre-processed data is essential for accurate and effective cell-cell communication analysis.
 2. **Method Comparison:** This section offers a comparative study of different tools (CellPhoneDB, NicheNet) in cell-cell communication analysis. It serves to highlight the advantages and use-cases of the `community` tool within the broader context of available analytical methods.
 
-Additionally, this repository is designed in alignment with the FAIR (Findable, Accessible, Interoperable, and Reusable) principles to ensure the highest standards of open science. It serves as a resource for reproducing the results ~~presented in our associated paper~~, enabling researchers to validate and build upon our findings in the field of cell-cell communication
+Additionally, this repository is designed in alignment with the FAIR (Findable, Accessible, Interoperable, and Reusable) principles to ensure the highest standards of open science. It serves as a resource for reproducing the results, enabling researchers to validate and build upon our findings in the field of cell-cell communication
 
 For detailed analysis using the `community` tool, refer to the [Community Repository](https://github.com/SoloveyMaria/community).
 
 ## Directory Structure
 
-The repository is organized into two main directories: `/src` and `/results`. Below is the tree view of the `/src` directory which contains Jupyter Notebooks. The output from each section will be saved in the corresponding folder under the `/result/` directory.
+Directory containing Jupyter Notebooks and the output from each section will be saved in the corresponding folder under the `/outs/` directory.
 
-![tree](https://imageupload.io/ib/2l26mryvfnbw3Ng_1699878309.png)
 
 
 ## Data pre-processing
