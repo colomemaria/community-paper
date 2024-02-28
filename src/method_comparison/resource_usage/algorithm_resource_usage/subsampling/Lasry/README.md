@@ -12,17 +12,19 @@ The following commands execute `community` on subsets of the Lasry dataset while
 First subset using community
 
 ```bash
-Rscript lasry_community.r outs/3_3/ & psrecord $(pgrep -f run_community.r) --interval 1 --log activity_Lasry_3_3_community.txt --plot plot_Lasry_3_3_community.png --include-children
+Rscript run_community.r outs/3_3/ & psrecord $(pgrep -f run_community.r) --interval 1 --log activity_Lasry_3_3_community.txt --plot plot_Lasry_3_3_community.png --include-children
 
 ```
 
 Second subset using community
 
 ```bash
-Rscript lasry_community.r outs/7_6/ & psrecord $(pgrep -f run_community.r) --interval 1 --log activity_Lasry_7_6_community.txt --plot plot_Lasry_7_6_community.png --include-children
+Rscript run_community.r outs/7_6/ & psrecord $(pgrep -f run_community.r) --interval 1 --log activity_Lasry_7_6_community.txt --plot plot_Lasry_7_6_community.png --include-children
 ```
 
-First subset using CPDB and so on
+First subset using CPDB and so
 
 ```bash
 Rscript PrepCPDB.r outs/3_3/ & psrecord $(pgrep -f run_community.r) --interval 1 --log activity_Lasry_3_3_cpdb.txt --plot plot_Lasry_3_3_cpdb.png --include-children```
+
+Rscript PrepCPDB.r outs/7_6/ & psrecord $(pgrep -f run_community.r) --interval 1 --log activity_Lasry_7_6_cpdb.txt --plot plot_Lasry_7_6_cpdb.png --include-children```

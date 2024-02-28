@@ -9,5 +9,5 @@ Below is the detailed information on splitting:
 | Tool            | Subsampling Configurations                                   |
 |-----------------|--------------------------------------------------------------|
 | Lasry           | 3 case, 3 control <br> 7 case, 6 control                    |
-| Simillie        | 3 case, 3 control <br> 7 case, 6 control <br> 10 case, 12 control <br> 17 case, 11 control |
+| Simillie        | 3 case, 3 control <br> 7 case, 6 control <br> 10 case, 12 control |
 | vanGalen_Oetjen | 3 case, 3 control <br> 7 case, 6 control <br> 9 case, 10 control <br> 24 case, 9 control |

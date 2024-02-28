@@ -45,8 +45,8 @@ if __name__ == "__main__":
     path_in = str(sys.argv[1])
     path_out = str(sys.argv[2])
 
-    case_values = [3, 7, 10, 17]
-    control_values = [3, 6, 12, 11]
+    case_values = [3, 7, 10]
+    control_values = [3, 6, 12]
 
     for n_case, n_control in zip(case_values, control_values):
         process_data(n_case, n_control, path_in, path_out)
