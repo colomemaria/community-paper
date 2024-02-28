@@ -16,10 +16,6 @@ Rscript lasry_community.r outs/3_3/ & psrecord $(pgrep -f run_community.r) --int
 
 ```
 
-
-
-
-
 Second subset using community
 
 ```bash
