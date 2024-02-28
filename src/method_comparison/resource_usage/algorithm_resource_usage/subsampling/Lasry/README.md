@@ -22,7 +22,7 @@ Second subset using community
 Rscript lasry_community.r outs/7_6/ & psrecord $(pgrep -f run_community.r) --interval 1 --log activity_Lasry_7_6_community.txt --plot plot_Lasry_7_6_community.png --include-children
 ```
 
-First subset using CPDB
+First subset using CPDB and so on
 
 ```bash
 Rscript PrepCPDB.r outs/3_3/ & psrecord $(pgrep -f run_community.r) --interval 1 --log activity_Lasry_3_3_cpdb.txt --plot plot_Lasry_3_3_cpdb.png --include-children```
