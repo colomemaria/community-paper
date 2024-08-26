@@ -1524,3 +1524,6 @@ data/Smillie/raw_data/gene_sorted-Epi.matrix.mtx
 .git/objects/pack/pack-c65ac498033d4142d03a91967c677c367b8fceeb.pack
 .git/objects/cb/2063efa7aa7dad4b2c185a12270edc8a326215
 .git/objects/pack/pack-5f8676db0a9bed0bfc096f75a324d5df3a7e5a94.pack
+src/method_comparison/compare_algorithms/prepare_data/run_CellChat/run_algorithm/outs/cellchat_object.list.RData
+src/data_preprocessing/Lasry/2.filtering/outs/counts_lognorm.csv.gz
+.git/objects/pack/pack-5f8676db0a9bed0bfc096f75a324d5df3a7e5a94.pack
