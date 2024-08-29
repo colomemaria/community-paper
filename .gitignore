@@ -1530,3 +1530,9 @@ src/data_preprocessing/Lasry/2.filtering/outs/counts_lognorm.csv.gz
 src/method_comparison/compare_algorithms/prepare_data/run_CellChat/run_algorithm/outs/cellchat_object.list.RData
 src/data_preprocessing/Lasry/2.filtering/outs/counts_lognorm.csv.gz
 .git/objects/pack/pack-5f8676db0a9bed0bfc096f75a324d5df3a7e5a94.pack
+src/method_comparison/compare_algorithms/prepare_data/run_CellChat/run_algorithm/outs/cellchat_object.list.RData
+src/method_comparison/compare_algorithms/prepare_data/run_CellChat/run_algorithm/outs/object.list.RData
+src/method_comparison/compare_algorithms/prepare_data/run_CellChat/run_algorithm/outs/object.list.case.RData
+src/method_comparison/compare_algorithms/prepare_data/run_CellChat/run_algorithm/outs/object.list.control.RData
+src/data_preprocessing/Lasry/2.filtering/outs/counts_lognorm.csv.gz
+.git/objects/pack/pack-5f8676db0a9bed0bfc096f75a324d5df3a7e5a94.pack
