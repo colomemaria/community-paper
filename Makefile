@@ -1,5 +1,5 @@
 # Settings
-CONDA_ENV=community_paper
+CONDA_ENV=community_paper_scgen
 SHELL=bash
 MINICONDA_URL=https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
@@ -29,7 +29,7 @@ install-conda: ## install Miniconda
 create-env: ## create conda environment
 	if ${CONDA} env list | grep -w ${CONDA_ENV}; then \
 	   echo "Updating existing conda environment"; \
-	   mamba env update -n ${CONDA_ENV} -f environment.yml; \
+	   mamba env update -n ${CONDA_ENV} -f environment.yml && pip install git+https://github.com/macelik/scgen_works.git; \
 	   echo "Activating environment and installing community package from GitHub"; \
 	   source ${ACTIVATE} ${CONDA_ENV} && R -e 'devtools::install_github("SoloveyMaria/community", upgrade = "always"); q()'; \
 	else \
@@ -42,11 +42,13 @@ create-env: ## create conda environment
 	    echo "Activating new environment and installing R packages"; \
 	    source ${ACTIVATE} ${CONDA_ENV} && R -e 'options(repos = c(CRAN = "https://cloud.r-project.org/")); install.packages("BiocManager"); BiocManager::install("metaboliteIDmapping"); q()' && \
 	    echo "Installing OmnipathR from GitHub"; \
-	    R -e 'options(repos = c(CRAN = "https://cloud.r-project.org/")); install.packages("prettyunits"); devtools::install_github("saezlab/OmnipathR"); q()' && \
+	    R -e 'options(repos = c(CRAN = "https://cloud.r-project.org/")); install.packages("prettyunits"); install.packages("VennDiagram"); devtools::install_github("saezlab/OmnipathR"); q()' && \
 	    echo "Installing community package from GitHub"; \
 	    R -e 'devtools::install_github("SoloveyMaria/community", upgrade = "always"); q()' && \
 	    echo "Installing Seurat object and Seurat from GitHub"; \
 	    R -e 'devtools::install_github("satijalab/seurat-object@v4.1.3"); devtools::install_github("satijalab/seurat@v4.3.0"); q()'&& \
+	    echo "Installing scgen"; \
+	    pip install git+https://github.com/macelik/scgen_works.git; \
 	    echo "Deactivating conda environment"; \
 	    conda deactivate && \
 	    echo "Running NicheNet install script"; \

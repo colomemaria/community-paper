@@ -1,4 +1,4 @@
-name: community_paper
+name: community_paper_scgen
 channels:
   - conda-forge
   - bioconda
@@ -28,7 +28,7 @@ dependencies:
   - bioconductor-scater
   - numpy
   - pandas==1.5.3
-  - anndata
+  - anndata<=0.10.8
   - scvi-tools
   - scanpy
   - numba
