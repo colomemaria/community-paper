@@ -1,4 +1,4 @@
-name: community_paper_scgen
+name: community_paper
 channels:
   - conda-forge
   - bioconda
@@ -36,5 +36,7 @@ dependencies:
   - r-eulerr
   - r-ggalluvial
   - bioconda::mygene
+  - conda-forge::r-venndiagram
+  - conda-forge::r-ggvenndiagram
   
 

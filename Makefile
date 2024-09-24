@@ -1,5 +1,5 @@
 # Settings
-CONDA_ENV=community_paper_scgen
+CONDA_ENV=community_paper
 SHELL=bash
 MINICONDA_URL=https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
