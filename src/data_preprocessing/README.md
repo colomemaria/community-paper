@@ -21,7 +21,7 @@ This section provides an overview of the preprocessing steps applied to each dat
 - **Notebook:** `./$dataset/3.normalization.ipynb`
 - **Language:** R, using the [Scran package](https://bioconductor.org/packages/release/bioc/html/scran.html)
 - **Input:** Filtered data from the previous step.
-- **Output:** Normalized expression matrices. Smillie dataset does not need furhter pre-processing step and the output from this step is used as an input, as no further preprocessing is required. Downloadable files can be found on [Zenodo](https://zenodo.org/records/7962808)
+- **Output:** Normalized expression matrices. Smillie dataset does not need furhter pre-processing step and the output from this step is used as an input, as no further preprocessing is required. Downloadable files can be found on [Zenodo](https://zenodo.org/records/10512663)
 
 
 ### 4. Batch Correction
