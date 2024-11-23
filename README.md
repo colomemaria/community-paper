@@ -19,7 +19,7 @@ Directory containing Jupyter Notebooks and the output from each section will be 
 We applied `community` tool on three published datasets.
     
 1. Lasry et al, 2023. The publication can be accessed via the following link: https://doi.org/10.1038/s43018-022-00480-0. The raw dataset can be downloaded by running `./download_raw_data.sh --lasry`. 
-2. Similie et al, 2019. This publication can be access via the following link: https://doi.org/10.1016/j.cell.2019.06.029. This published dataset is available for download from the controlled-access data repository, Broad DUOS, thus it requires a registration. https://portals.broadinstitute.org/single_cell/study/SCP259. 
+2. Smillie et al, 2019. This publication can be access via the following link: https://doi.org/10.1016/j.cell.2019.06.029. This published dataset is available for download from the controlled-access data repository, Broad DUOS, thus it requires a registration. https://portals.broadinstitute.org/single_cell/study/SCP259. 
 3. Integrated van Galen et al. - Oetjen et al.: To study the alterations in cell-to-cell communication in AML, we constructed an integrated dataset containing the single-cell RNA sequencing (scRNAseq) profiles of bone marrow from healthy individuals ( [Oetjen et al., 2018](https://doi.org/10.1172/jci.insight.124928)) and AML patients at diagnosis ([vanGalen et al., 2019](https://doi.org/10.1016/j.cell.2019.01.031),). The  read counts and annotation files were acquired from [GSE116256](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116256) and [GSE120221](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120221) datasets. These both datasets can be downloaded by running `./download_raw_data.sh --vanGalen_Oetjen`.
 
 
@@ -27,7 +27,7 @@ We applied `community` tool on three published datasets.
 
 [Pre-processed data for Lasry et al, 2023](https://zenodo.org/records/7962808)
 
-[Pre-processed data for Similie et al, 2019](https://zenodo.org/records/7962808)
+[Pre-processed data for Smillie et al, 2019](https://zenodo.org/records/7962808)
 
 [Pre-processed data for Integrated van Galen et al. - Oetjen et al](https://zenodo.org/records/10013368)
 
