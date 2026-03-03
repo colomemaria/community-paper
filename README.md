@@ -1,6 +1,8 @@
 # Aim / Overveiw
 
-This repository is dedicated to the analysis of single-cell RNAseq datasets, facilitating a comprehensive understanding of cell-cell communication through two main components:
+This repository is dedicated to reproduce all of the results in our manuscript (in revision), https://www.biorxiv.org/content/10.1101/2024.03.01.582941v1 
+
+This repository is aim to facilitate a comprehensive understanding of cell-cell communication through two main components:
 
 1. **Pre-Processing of Datasets:** Jupyter Notebooks are provided to prepare the datasets for subsequent analysis using the `community` tool. The pre-processed data is essential for accurate and effective cell-cell communication analysis.
 2. **Method Comparison:** This section offers a comparative study of different tools (CellPhoneDB, NicheNet) in cell-cell communication analysis. It serves to highlight the advantages and use-cases of the `community` tool within the broader context of available analytical methods.
