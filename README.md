@@ -1,6 +1,6 @@
 # Aim / Overveiw
 
-This repository is dedicated to reproduce all of the results in our manuscript (in revision), https://www.biorxiv.org/content/10.1101/2024.03.01.582941v1 
+This repository is dedicated to reproduce all of the results in our paper, [https://www.cell.com/iscience/fulltext/S2589-0042(26)02692-1](https://www.cell.com/iscience/fulltext/S2589-0042(26)02692-1)  
 
 This repository is aim to facilitate a comprehensive understanding of cell-cell communication through two main components:
 
